@@ -19,6 +19,12 @@ html
 
     #main
         article
+            if post.process
+                p= 'process: '+post.process
+
+            if post.supervisionFH 
+                p= 'supervised by: '+post.process+' at '+ a(href="http://www.fh-potsdam.de/studieren/design/?0='A%3D0'")FH Potsdam
+
             block presentation
         nav
             block details
