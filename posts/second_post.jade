@@ -9,6 +9,16 @@ process: ' Theoretical analysis, Market analysis, Use cases, Information archite
 
 supervisionFH: 'Prof. Dr. Frank Heidmann and Prof. Matthias Krohn'
 
+press: [
+	['Alexander von Humboldt Institut für Internet und Gesellschaft','http://www.hiig.de'],
+	['Image Knowledge Gestaltung. An Interdisciplinary Laboratory','https://www.interdisciplinary-laboratory.hu-berlin.de/']
+]
+
+more: [
+    ['Concept in details','#concept'],
+    ['Final screens','#final'],
+    ['Insights in the process','#process']
+]
 
 _content: false
 ---
@@ -16,16 +26,31 @@ _content: false
 extends ../views/_single
 
 block presentation
-  p
-   
-  
-  img(src="/img/street.jpg")
-
-   
-
-  :markdown
-    da kommt noch was
+ 
+  img(src="/img/street.jpg",class='xyz')
 
 block details
-   :markdown
-    viele details
+   //- :markdown
+   //-  viele details
+
+   h1#concept Concept in details
+
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates. Following this insight, my goal has been to compare the networks that emerge from the different language versions of a single Wikipedia article.
+
+   img(src="/img/street.jpg",class='xyz')
+
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/> The Wikipedia articles corresponding to Berlin in German and in English are not formed out of the same network of linked articles and accordingly offer different perspectives about the german capital.<br/>In details, the quantity of articles linked with the german version is higher than with the english version (the german one is longer) but it doesn’t automatically mean that the corresponding articles don’t exist. They just may not be linked. For example, the Maxim-Gorki-Theater article does exist in English but is not linked to the Berlin article. 
+
+   hr
+
+   h1#final Final screens
+
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates. Following this insight, my goal has been to compare the networks that emerge from the different language versions of a single Wikipedia article.
+
+   hr
+
+   h1#process Insights in the process
+
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates. Following this insight, my goal has been to compare the networks that emerge from the different language versions of a single Wikipedia article.
+
+
