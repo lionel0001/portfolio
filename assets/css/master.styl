@@ -3,5 +3,58 @@
 normalize-css()
 base()
 
+threshold = 640px
+
 body
-  padding: 50px
+	background: white
+
+
+#main
+	margin: 0px
+	padding: 0px
+	display: flex
+	flex-flow: row
+	+below(threshold)
+		flex-flow: column
+		flex-direction: column
+			
+	article
+		margin: 4px
+		padding: 5px
+		border: 1px solid grey
+		background:green
+		flex: 3 1 60%
+		order: 2
+		
+	nav
+		margin: 4px
+		padding: 5px
+		border: 1px solid grey
+		background:purple
+		flex: 1 6 20%
+		order: 1
+		+below(threshold)
+			min-height: 50px
+			max-height: 50px
+		
+	aside
+		margin: 4px
+		paddinga: 5px
+		border: 1px solid grey
+		background:purple
+		flex: 1 6 20%
+		order: 3
+		+below(threshold)
+			min-height: 50px
+			max-height: 50px
+		
+header, footer 
+	display: block
+	margin: 4px
+	padding: 5px
+	min-height: 20px	
+	border: 1px solid grey
+	background:yellow
+	+below(threshold)
+		min-height: 50px
+		max-height: 50px
