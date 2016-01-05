@@ -17,15 +17,19 @@ block presentation
     
    h1#concept Concept in details
 
-   - var values = ['bla','bli'];
-   ul
-      each val in values.length ? values : ['There are no values']
-         li= val
+   - var values = ['caramel.jpeg','cheesecake.jpeg','donuts.jpeg','lemon.jpeg'];
+   
+   .flexslider
+   
+      ul.slides
+         each val in values.length ? values : ['No picture available']
+            li
+               img(src="/img/slider/"+val)
 
 block details
 
-   h1#concept Concept in details
+   h1#concept Concept in details 
 
-   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are  rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
 
    
