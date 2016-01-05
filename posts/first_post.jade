@@ -1,11 +1,31 @@
 ---
-title: 'First Post!'
+title: 'More Content'
 author: 'Jeff'
+ 
+subtitle: 'bla'
+year: '2011'
+
+process: ' Theoretical analysis, Market analysis, Use cases, Information architecture, Wireframes, iPad screen design'
+
+
 _content: false
 ---
 
 extends ../views/_single
 
-block content
-  :markdown
-    Here's my first post on this little blog. **How exciting!**
+block presentation
+    
+   h1#concept Concept in details
+
+   - var values = ['bla','bli'];
+   ul
+      each val in values.length ? values : ['There are no values']
+         li= val
+
+block details
+
+   h1#concept Concept in details
+
+   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
+
+   
