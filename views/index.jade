@@ -21,7 +21,7 @@ block content
             for post in site.posts
                .project
                   a(href=post._url)
-                     .box
+                     .box(class='bgImg-'+post.id)
                         .veil
                         h1= post.title
                         h2= post.subtitle
