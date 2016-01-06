@@ -10,7 +10,9 @@ threshold = 640px
 bgcolor = #ECECEC
 greyDark = #424242
 greyMedium = #767676
-greyLight = #D2D2D2 
+greyLight = #D2D2D2
+
+projectBoxHeight = 250px
 
 body
 	background: bgcolor
@@ -34,110 +36,101 @@ body
 				col(3/12)
 		
 		#projects
-			
-			div
-				col(1/2, cycle:2)
-				
+			.project
+				col(1/2, cycle:2, gutter: 2)
 				display: block
 				box-sizing: border-box
-				height: 150px
 				margin-bottom: 20px
-				padding:15px
 				
-				h1
-					font-size: 1.125 rem
-					font-weight: 500
-					margin:0
-					padding:0
 					
-					// :hover
-					// 	background: red
-					
-					a
-						text-decoration: none
-						color: greyDark
+h1
+	font-size: 1.125 rem
+	font-weight: 500
+	margin:0
+	padding:0
+	color: greyDark
+	
+h2
+	font-size: 0.875 rem
+	font-weight: 400
+	font-style: italic
+	margin:0
+	padding:0
+	color: greyDark
+	text-decoration: none
 
-				h2
-					font-size: 0.875 rem
-					font-weight: 400
-					font-style: italic
-					margin:0
-					padding:0
 						
-					a
-						text-decoration: none
-						color: greyMedium			
-				
-			div:hover
-				background: greyMedium, 0.5
-				
-				h1,h2 
-					a
-						color: greyLight
-				
-				// .bgImg-helen, .bgImg-knowledge, .bgImg-geolinguistic
-				// 	opacity:0.2
-
+.pad15
+	padding: pad = 15px
+	bg: '/img/street-cut.jpg'
+	height:projectBoxHeight - pad*2
 	
-.bgImg-helen
-	bg: '/img/street-cut.png'
+
+
+
+
+
+// .bgImg-helen
+// 	bg: '/img/street-cut.png'
 	
-.bgImg-knowledge
-	bg: '/img/street-cut.png'
+// .bgImg-knowledge
+// 	bg: '/img/street-cut.png'
 
-.bgImg-geolinguistic
-	bg: '/img/street-cut.png' 
+// .bgImg-geolinguistic
+// 	bg: '/img/street-cut.png' 
 			
-.bgImg-urbanweave
-	bg: '/img/street-cut.png'
+// .bgImg-urbanweave
+// 	bg: '/img/street-cut.png'
 
 
-	#main
-		margin: 0px
-		padding: 0px
-		display: flex
-		flex-flow: row
-		+below(threshold)
-			flex-flow: column
-			flex-direction: column
-				
-		article
-			margin: 4px
-			padding: 5px
-			border: 1px solid grey
-			background:green
-			flex: 3 1 60%
-			order: 2
+
+
+#main
+	margin: 0px
+	padding: 0px
+	display: flex
+	flex-flow: row
+	+below(threshold)
+		flex-flow: column
+		flex-direction: column
 			
-		nav
-			margin: 4px
-			padding: 5px
-			border: 1px solid grey
-			background:purple
-			flex: 1 6 20%
-			order: 1
-			+below(threshold)
-				min-height: 50px
-				max-height: 50px
-			
-		aside
-			margin: 4px
-			paddinga: 5px
-			border: 1px solid grey
-			background:purple
-			flex: 1 6 20%
-			order: 3
-			+below(threshold)
-				min-height: 50px
-				max-height: 50px
-			
-	header, footer 
-		display: block
+	article
 		margin: 4px
 		padding: 5px
-		min-height: 20px	
 		border: 1px solid grey
-		background:yellow
+		background:green
+		flex: 3 1 60%
+		order: 2
+		
+	nav
+		margin: 4px
+		padding: 5px
+		border: 1px solid grey
+		background:purple
+		flex: 1 6 20%
+		order: 1
 		+below(threshold)
 			min-height: 50px
 			max-height: 50px
+		
+	aside
+		margin: 4px
+		paddinga: 5px
+		border: 1px solid grey
+		background:purple
+		flex: 1 6 20%
+		order: 3
+		+below(threshold)
+			min-height: 50px
+			max-height: 50px
+		
+header, footer 
+	display: block
+	margin: 4px
+	padding: 5px
+	min-height: 20px	
+	border: 1px solid grey
+	background:yellow
+	+below(threshold)
+		min-height: 50px
+		max-height: 50px

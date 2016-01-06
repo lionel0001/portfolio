@@ -19,12 +19,14 @@ block content
 
       #projects
             for post in site.posts
-               div(class='bgImg-'+post.id)
-                  h1
-                     a(href=post._url)= post.title
-                  h2
-                     a(href=post._url)= post.subtitle
+               .project
+                  a(href=post._url)
+                     .pad15
+                        h1= post.title
+                        h2= post.subtitle
+                     //- div(class='bgImg-'+post.id)
                      
+
 
 
 
