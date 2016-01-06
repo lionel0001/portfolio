@@ -14,110 +14,109 @@ greyMedium = #767676
 body
 	background: bgcolor
 	font-family: fira
+	
 
-#container
-	
-	center(960px)
-	
-	#topBanner
-		left
-			col(9/12)
-		right
-			col(3/12)
-			
-	#metaNav
-		left
-			col(9/12)		
-		right
-			col(3/12)
-	
-	#projects
+	#container
 		
-		div
-			col(1/2, cycle:2)
+		center(960px)
+		
+		#topBanner
+			left
+				col(9/12)
+			right
+				col(3/12)
+				
+		#metaNav
+			left
+				col(9/12)		
+			right
+				col(3/12)
+		
+		#projects
 			
-			display: block
-			box-sizing: border-box
-			height: 400px
-			background: white
-			// bg: '/img/street.jpg' 
-			margin-bottom: 20px
-			padding:15px
-
-			.bgImg-helen
-				background: green
-				background-image: '/img/street.jpg' 
+			div
+				col(1/2, cycle:2)
 				
-			h1
-				font-size: 1.125 rem
-				font-weight: 500
-				margin:0
-				padding:0
-				
-				a
-					text-decoration: none
-					color: greyDark
+				display: block
+				box-sizing: border-box
+				height: 400px
+				margin-bottom: 20px
+				padding:15px
 
-			h2
-				font-size: 0.875 rem
-				font-weight: 400
-				font-style: italic
-				margin:0
-				padding:0
+
 					
-				a
-					text-decoration: none
-					color: greyMedium
+				h1
+					font-size: 1.125 rem
+					font-weight: 500
+					margin:0
+					padding:0
+					
+					a
+						text-decoration: none
+						color: greyDark
+
+				h2
+					font-size: 0.875 rem
+					font-weight: 400
+					font-style: italic
+					margin:0
+					padding:0
+						
+					a
+						text-decoration: none
+						color: greyMedium
+				
+
+	.bgImg-helen
+		bg: '/img/street.jpg' 
+
+
+	#main
+		margin: 0px
+		padding: 0px
+		display: flex
+		flex-flow: row
+		+below(threshold)
+			flex-flow: column
+			flex-direction: column
+				
+		article
+			margin: 4px
+			padding: 5px
+			border: 1px solid grey
+			background:green
+			flex: 3 1 60%
+			order: 2
 			
-
-
-
-#main
-	margin: 0px
-	padding: 0px
-	display: flex
-	flex-flow: row
-	+below(threshold)
-		flex-flow: column
-		flex-direction: column
+		nav
+			margin: 4px
+			padding: 5px
+			border: 1px solid grey
+			background:purple
+			flex: 1 6 20%
+			order: 1
+			+below(threshold)
+				min-height: 50px
+				max-height: 50px
 			
-	article
+		aside
+			margin: 4px
+			paddinga: 5px
+			border: 1px solid grey
+			background:purple
+			flex: 1 6 20%
+			order: 3
+			+below(threshold)
+				min-height: 50px
+				max-height: 50px
+			
+	header, footer 
+		display: block
 		margin: 4px
 		padding: 5px
+		min-height: 20px	
 		border: 1px solid grey
-		background:green
-		flex: 3 1 60%
-		order: 2
-		
-	nav
-		margin: 4px
-		padding: 5px
-		border: 1px solid grey
-		background:purple
-		flex: 1 6 20%
-		order: 1
+		background:yellow
 		+below(threshold)
 			min-height: 50px
 			max-height: 50px
-		
-	aside
-		margin: 4px
-		paddinga: 5px
-		border: 1px solid grey
-		background:purple
-		flex: 1 6 20%
-		order: 3
-		+below(threshold)
-			min-height: 50px
-			max-height: 50px
-		
-header, footer 
-	display: block
-	margin: 4px
-	padding: 5px
-	min-height: 20px	
-	border: 1px solid grey
-	background:yellow
-	+below(threshold)
-		min-height: 50px
-		max-height: 50px
