@@ -15,55 +15,96 @@ greyLight = #D2D2D2
 projectBoxHeight = 250px
 
 body
-	background: bgcolor
-	font-family: fira
-	
+   background: bgcolor
+   font-family: fira
+   
 
-	#container
-		
-		center(960px)
-		
-		#topBanner
-			left
-				col(9/12)
-			right
-				col(3/12)
-				
-		#metaNav
-			left
-				col(9/12)		
-			right
-				col(3/12)
-		
-		#projects
-				.project
-					col(1/2, cycle:2)
-					height: projectBoxHeight
-					margin-bottom: 20px
-					
-					a
-						text-decoration:none
-						
-									
-						.bgImg
-							background-image: url('/img/street-cut.jpg')
-							cursor: auto;
-							display: block;
-							height: projectBoxHeight - 30px
-							padding:15px
+   #container
+      
+      center(960px)
+      
+      #topBanner
+         left
+            col(9/12)
+         right
+            col(3/12)
+            
+      #metaNav
+         left
+            col(9/12)      
+         right
+            col(3/12)
+      
+      #projects
+            .project
+               col(1/2, cycle:2)
+               height: projectBoxHeight
+               margin-bottom: 20px
+               
+               a
+                  text-decoration:none
+                           
+                  .box
+                     background-image: url('/img/street-cut.jpg')
+                     opacity: 1;
+                     transition: opacity .25s ease-in-out
+                     cursor: auto;
+                     display: block;
+                     height: projectBoxHeight
+                     // padding:15px
+                  
 
-							h1
-								font-size: 1.125 rem
-								font-weight: 500
-								margin:0
-								padding:0
-								color: greyDark		
-								
-							h2
-								font-size: 0.875 rem
-								font-weight: 400
-								font-style: italic
-								margin:0
-								padding:0
-								color: greyMedium
 
+                     .veil
+                        background-color:green
+                        opacity:0
+                        width: 466px
+                        height:projectBoxHeight
+                        position:absolute
+                        z-index:0
+                        transition: opacity .25s ease-in-out;
+
+                     h1
+                        font-size: 1.125 rem
+                        font-weight: 500
+                        margin:0
+                        padding:0
+                        color: greyDark
+                        position:relative
+                        z-index: 10
+                        padding-left:15px
+                        padding-top:15px
+                        
+                     h2
+                        font-size: 0.875 rem
+                        font-weight: 400
+                        font-style: italic
+                        margin:0
+                        padding:0
+                        color: greyMedium
+                        position:relative
+                        z-index: 10
+                        padding-left:15px
+                        
+               a:hover
+                  
+                  .box
+                     
+                     .veil
+                        opacity:0.8
+                        background-color:greyDark
+                     
+                     h1, h2
+                        color: greyLight
+                     
+   .bgImg-helen
+      bg: '/img/street.jpg'
+      
+   .bgImg-knowledge
+      bg: '/img/street.jpg'
+
+   .bgImg-geolinguistic
+      bg: '/img/street.jpg'
+              
+   .bgImg-urbanweave
+      bg: '/img/street.jpg' 
