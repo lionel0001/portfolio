@@ -19,8 +19,7 @@ block content
 
       #projects
             for post in site.posts
-               //- div(class=post.bgImg)
-               div(class='bgImg-helen')
+               div(class='bgImg-'+post.id)
                   h1
                      a(href=post._url)= post.title
                   h2
