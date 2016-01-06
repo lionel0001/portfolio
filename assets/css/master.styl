@@ -1,12 +1,75 @@
 @import '_settings'
+@import 'jeet'
 
 normalize-css()
 base()
+// edit(grey)
 
 threshold = 640px
 
+bgcolor = #ECECEC
+greyDark = #424242
+greyMedium = #767676
+
 body
-	background: white
+	background: bgcolor
+	font-family: fira
+
+#container
+	
+	center(960px)
+	
+	#topBanner
+		left
+			col(9/12)
+		right
+			col(3/12)
+			
+	#metaNav
+		left
+			col(9/12)		
+		right
+			col(3/12)
+	
+	#projects
+		
+		div
+			col(1/2, cycle:2)
+			
+			display: block
+			box-sizing: border-box
+			height: 400px
+			background: white
+			// bg: '/img/street.jpg' 
+			margin-bottom: 20px
+			padding:15px
+
+			.bgImg-helen
+				background: green
+				background-image: '/img/street.jpg' 
+				
+			h1
+				font-size: 1.125 rem
+				font-weight: 500
+				margin:0
+				padding:0
+				
+				a
+					text-decoration: none
+					color: greyDark
+
+			h2
+				font-size: 0.875 rem
+				font-weight: 400
+				font-style: italic
+				margin:0
+				padding:0
+					
+				a
+					text-decoration: none
+					color: greyMedium
+			
+
 
 
 #main

@@ -1,8 +1,28 @@
 extends layout
 
 block content
-  h3 My Simple Blog
+   #container
 
-  ul
-    for post in site.posts
-      li: a(href=post._url)= post.title
+      #topBanner
+         left
+            h3 bla
+         right
+            h3 bli
+
+
+      #metaNav
+         left
+            h4 My Simple Blog
+
+         right
+            h4 right dd
+
+      #projects
+            for post in site.posts
+               //- div(class=post.bgImg)
+               div(class='bgImg-helen')
+                  h1
+                     a(href=post._url)= post.title
+                  h2
+                     a(href=post._url)= post.subtitle
+

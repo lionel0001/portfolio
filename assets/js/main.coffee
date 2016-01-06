@@ -10,7 +10,6 @@ $('.flexslider').flexslider
 	animation: "slide"
 
 
-
 WebFont.load({
     google: {
       families: ['Droid Sans', 'Droid Serif']

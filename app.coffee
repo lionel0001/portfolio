@@ -4,6 +4,7 @@ autoprefixer = require 'autoprefixer-stylus'
 js_pipeline  = require 'js-pipeline'
 css_pipeline = require 'css-pipeline'
 dynamic      = require 'dynamic-content'
+jeet         = require 'jeet'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
@@ -15,7 +16,7 @@ module.exports =
   ]
 
   stylus:
-    use: [axis(), rupture(), autoprefixer()]
+    use: [axis(), rupture(), jeet(), autoprefixer()]
     sourcemap: true
 
   'coffee-script':
@@ -23,3 +24,5 @@ module.exports =
 
   jade:
     pretty: true
+
+    
