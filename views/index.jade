@@ -11,7 +11,7 @@ block content
                span.status I am Berlin-based UX Designer and open for cooperations (full-time or freelance)
          right
             ul
-               li 
+               li
                   a(href='http://www.nichts.com') Projects
                li 
                   a(href='http://www.nichts.com') About
@@ -21,16 +21,20 @@ block content
             h3 
                span.blue Selected projects
 
-         //- right
-         //-    h4 right dd
+         right
+            h3= site.posts.length
 
       #projects
-            for post in site.posts
-               .project
-                  a(href=post._url)
-                     .box(class='bgImg-'+post.id)
-                        .veil
-                        h1= post.title
-                        h2= post.subtitle
-                           if post.moreinfo
-                              span.moreInfo= ' — '+post.moreinfo
+
+         //- p= JSON.stringify(site)
+         //- p= JSON.stringify(site.posts[0].year)
+
+         for post in site.posts
+            .project
+               a(href=post._url)
+                  .box(class='bgImg-'+post.id)
+                     .veil
+                     h1= post.title
+                     h2= post.subtitle
+                        if post.moreinfo
+                           span.moreInfo= ' — '+post.moreinfo
