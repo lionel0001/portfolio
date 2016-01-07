@@ -3,14 +3,14 @@
 
 normalize-css()
 base()
-edit(grey)
+// edit(grey)
 
 threshold = 640px
 
 bgcolor = #ECECEC
 greyDark = #424242
 greyMedium = #767676
-greyLight = #D2D2D2
+greyLight = #9E9E9E
 blueDark = #488FC7
 
 projectBoxHeight = 250px
@@ -18,6 +18,9 @@ projectBoxHeight = 250px
 body
    background: bgcolor
    font-family: fira
+   
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
    
    #container
       
@@ -40,6 +43,23 @@ body
          .blue
             font-weight:400
             color: blueDark
+            
+      ul
+         reset-list()
+         inline-list: 25 px
+         line-height: 2rem;
+         float:right
+         color: blueDark
+      
+         a
+            color: blueDark
+            text-decoration:none
+            transition: color 0.25s ease-in-out;
+         
+         a:hover
+            color: greyDark
+            
+
 
       #topBanner
          left
@@ -63,9 +83,7 @@ body
                   text-decoration:none
                            
                   .box
-                     // background-image: url('/img/street-cut.jpg')
                      opacity: 1;
-                     transition: opacity 4s ease-in-out
                      cursor: auto;
                      display: block;
                      height: projectBoxHeight
@@ -77,7 +95,7 @@ body
                         height:projectBoxHeight
                         position:absolute
                         z-index:0
-                        transition: opacity .25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
 
                      h1
                         font-size: 1.125 rem
@@ -89,6 +107,7 @@ body
                         z-index: 10
                         padding-left:15px
                         padding-top:15px
+                        transition: all 0.25s ease-in-out;
                         
                      h2
                         font-size: 0.875 rem
@@ -100,6 +119,10 @@ body
                         position:relative
                         z-index: 10
                         padding-left:15px
+                        transition: all 0.25s ease-in-out;
+                        
+                        .moreInfo
+                           color:greyLight
                         
                a:hover
                   
@@ -113,7 +136,7 @@ body
                         color: greyLight
                      
    .bgImg-helen
-      bg: '/img/street.jpg'
+      bg: '/img/street-cut.jpg'
       
    .bgImg-knowledge
       bg: '/img/street.jpg'
