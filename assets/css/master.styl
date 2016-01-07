@@ -3,7 +3,7 @@
 
 normalize-css()
 base()
-// edit(grey)
+edit(grey)
 
 threshold = 640px
 
@@ -11,6 +11,7 @@ bgcolor = #ECECEC
 greyDark = #424242
 greyMedium = #767676
 greyLight = #D2D2D2
+blueDark = #488FC7
 
 projectBoxHeight = 250px
 
@@ -18,11 +19,28 @@ body
    background: bgcolor
    font-family: fira
    
-
    #container
       
       center(960px)
       
+      h3
+         font-size: 1rem
+         font-weight:500
+         color: greyDark
+         line-height: 0.5rem;
+
+         .slogan
+            font-weight:400
+            font-style:italic
+         
+         .status
+            font-weight:400
+            color: greyMedium
+         
+         .blue
+            font-weight:400
+            color: blueDark
+
       #topBanner
          left
             col(9/12)
