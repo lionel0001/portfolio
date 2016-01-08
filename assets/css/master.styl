@@ -3,9 +3,9 @@
 
 normalize-css()
 base()
-// edit(red)
+edit(red)
 
-threshold = 640px
+breakpoint = 960px
 
 bgcolor = #ECECEC
 greyDark = #424242
@@ -16,16 +16,26 @@ blueDark = #488FC7
 projectBoxHeight = 250px
 
 body
-   background: bgcolor
+   background: bgcolor   
    font-family: fira
    
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    
+   #bluestrip
+      width: 20px
+      heigh: 100%
+   
    #container
       padding-top: 25px
-      
-      center(960px)
+      margin-left: 60px
+      margin-right: 60px
+      width: 960px
+      +below(breakpoint)
+         width:100%
+
+
+      // center(960px)
       
       h3
          font-size: 1rem
@@ -64,13 +74,18 @@ body
             color: blueDark
             
       #topBanner
-         display:block
          margin-bottom: 130px
 
          left
             col(9/12)
+            +below(breakpoint)
+               stack()
+
          right
             col(3/12)
+            +below(breakpoint)
+               stack()
+
          
             
       #metaNav
