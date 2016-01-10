@@ -3,38 +3,56 @@
 
 normalize-css()
 base()
-edit(red)
+// edit(red)
 
-breakpoint = 960px
+projectBoxWidth = 466px
+projectBoxHeight = 250px
+
+containerMarginLeftXL = 60px
+containerMarginRightXL = 40px
+
+containerMarginLeftL = 60px
+containerMarginRightL = 40px
+containerMargins = containerMarginLeftL  + containerMarginRightL
+
+containerWidth = 960px
+
+bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
+bpSmall = 768px
 
 bgcolor = #ECECEC
 greyDark = #424242
 greyMedium = #767676
 greyLight = #9E9E9E
 blueDark = #488FC7
+blueLight = #C1DEFF
 
-projectBoxHeight = 250px
 
 body
    background: bgcolor   
    font-family: fira
    
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased
+   -moz-osx-font-smoothing: grayscale
    
    #bluestrip
       width: 20px
-      heigh: 100%
-   
+      height: 100%
+      background: blueLight
+      // display:block
+      position:absolute
+      z-index: 100
+      
    #container
       padding-top: 25px
-      margin-left: 60px
-      margin-right: 60px
-      width: 960px
-      +below(breakpoint)
-         width:100%
-
-
+      margin-left: containerMarginLeftXL
+      margin-right: containerMarginRightXL
+      width: containerWidth
+      +below(bpMedium)
+         margin-left: containerMarginLeftL
+         padding-right: containerMarginRightL
+         width: "calc(100% - %s)" % containerMargins   
+         
       // center(960px)
       
       h3
@@ -78,13 +96,13 @@ body
 
          left
             col(9/12)
-            +below(breakpoint)
-               stack()
+         // +below(bpMedium)
+         //    stack()
 
          right
             col(3/12)
-            +below(breakpoint)
-               stack()
+            // +below(bpMedium)
+            //    stack()
 
          
             
@@ -99,6 +117,9 @@ body
                col(1/2, cycle:2)
                height: projectBoxHeight
                margin-bottom: 20px
+               
+               +below(bpSmall)
+                  stack()
                
                a
                   text-decoration:none
@@ -127,6 +148,7 @@ body
                         position:relative
                         z-index: 10
                         padding-left:15px
+                        padding-right:15px
                         padding-top:15px
                         transition: all 0.25s ease-in-out;
                         
@@ -140,10 +162,12 @@ body
                         position:relative
                         z-index: 10
                         padding-left:15px
+                        padding-right:15px
                         transition: all 0.25s ease-in-out;
                         
                         .moreInfo
                            color:greyLight
+                           
                         
                a:hover
                   

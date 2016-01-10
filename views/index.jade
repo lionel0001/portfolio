@@ -1,6 +1,9 @@
 extends layout
 
+
+
 block content
+   #bluestrip
    #container
 
       #topBanner
@@ -33,8 +36,8 @@ block content
             .project
                a(href=post._url)
                   .box(class='bgImg-'+post.id)
-                     .veil
+                     //- .veil
                      h1= post.title
                      h2= post.subtitle
                         if post.moreinfo
-                           span.moreInfo= ' — '+post.moreinfo
+                           span.moreInfo= ' — '+post.moreinfo 
