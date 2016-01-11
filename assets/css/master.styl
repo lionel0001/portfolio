@@ -3,7 +3,7 @@
 
 normalize-css()
 base()
-// edit(red)
+edit(red)
 
 projectBoxWidth = 466px
 projectBoxHeight = 250px
@@ -14,6 +14,12 @@ containerMarginRightXL = 40px
 containerMarginLeftL = 60px
 containerMarginRightL = 40px
 containerMargins = containerMarginLeftL  + containerMarginRightL
+
+containerMarginLeftS = 20px
+containerMarginRightS = 20px
+containerMarginsS = containerMarginLeftS + containerMarginRightS
+txtSmallCopy = 0.875rem
+
 
 containerWidth = 960px
 
@@ -35,6 +41,40 @@ body
    -webkit-font-smoothing: antialiased
    -moz-osx-font-smoothing: grayscale
    
+// Slicknav
+   .slicknav_menu
+      display:none
+      z-index:200
+      // position:fixed
+      float:right
+      background-color:transparent
+      margin: 0
+      
+      .slicknav_btn
+         margin:0
+         padding:0.7em
+         background-color: transparent
+         // background-color: red
+         
+
+      .slicknav_icon
+         margin: 0
+         padding-top:0.1em
+         
+         .slicknav_icon-bar
+            background-color: greyDark
+            
+    
+      +below(bpSmall)
+         display:block
+
+      ul
+         display:none
+         
+
+
+// blue strip
+
    #bluestrip
       width: 20px
       height: 100%
@@ -42,24 +82,35 @@ body
       // display:block
       position:absolute
       z-index: 100
-      
+      +below(bpSmall)
+         display:none
+
+// content
+
    #container
-      padding-top: 25px
+      padding-top: 0px
+      margin-top: 0px
       margin-left: containerMarginLeftXL
       margin-right: containerMarginRightXL
       width: containerWidth
+      
       +below(bpMedium)
          margin-left: containerMarginLeftL
          padding-right: containerMarginRightL
          width: "calc(100% - %s)" % containerMargins   
-         
-      // center(960px)
       
+      +below(bpSmall)
+         // padding-top: 20px
+         margin-left: containerMarginLeftS
+         margin-right: 0
+         padding-right: containerMarginRightS
+         width: "calc(100% - %s)" % containerMarginsS 
+
       h3
          font-size: 1rem
          font-weight:500
          color: greyDark
-         line-height: 0.5rem;
+         // line-height: 0.5rem;
          // margin: 0px
          // padding:0px
 
@@ -74,7 +125,12 @@ body
          .blue
             font-weight:400
             color: blueDark
+         
+         +below(bpSmall)
+            font-size: txtSmallCopy
             
+
+
       ul
          reset-list()
          inline-list: 25 px
@@ -82,6 +138,9 @@ body
          float:right
          font-weight:400
          color: blueDark
+         
+         +below(bpMedium)
+            inline-list: 15 px
       
          a
             color: greyDark
@@ -92,16 +151,26 @@ body
             color: blueDark
             
       #topBanner
-         margin-bottom: 130px
+         margin-top: 0px
+         // margin-bottom: 130px
 
          left
-            col(9/12)
-         // +below(bpMedium)
-         //    stack()
+            col(10/12)
+            
+            +below(bpMedium)
+               col(9/12)
+               
+            // +below(bpSmall)
+            //    display:none
 
          right
-            col(3/12)
-            // +below(bpMedium)
+            col(2/12)
+            
+            +below(bpMedium)
+               col(3/12)
+
+            +below(bpSmall)
+               display:none
             //    stack()
 
          
@@ -120,6 +189,9 @@ body
                
                +below(bpSmall)
                   stack()
+                  //max-width: 500px
+                  //display:table
+
                
                a
                   text-decoration:none
@@ -133,7 +205,7 @@ body
                      .veil
                         // background-color:green
                         opacity:0
-                        width: 466px
+                        width: 50px
                         height:projectBoxHeight
                         position:absolute
                         z-index:0

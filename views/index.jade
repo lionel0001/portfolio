@@ -3,6 +3,25 @@ extends layout
 
 
 block content
+
+   .slicknav_menu
+      
+      a(href='#')
+         .slicknav_btn
+            span.slicknav_text
+            span.slicknav_icon
+               span.slicknav_icon-bar
+               span.slicknav_icon-bar
+               span.slicknav_icon-bar
+      
+      
+      ul.slicknav_nav
+         li
+            a(href='http://www.nichts.com') Xprojects
+         li
+            a(href='http://www.nichts.com') Xabout
+
+
    #bluestrip
    #container
 
@@ -36,7 +55,7 @@ block content
             .project
                a(href=post._url)
                   .box(class='bgImg-'+post.id)
-                     //- .veil
+                     .veil
                      h1= post.title
                      h2= post.subtitle
                         if post.moreinfo
