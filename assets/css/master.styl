@@ -42,31 +42,17 @@ body
    -moz-osx-font-smoothing: grayscale
    
 // Slicknav
+
 .slicknav_menu
    display:none
+   
    
    +below(bpSmall)
 
       .slicknav_btn
          float:left
          background:transparent
-      
-      // .slicknav_open
-      //    background-color:white
-
-      // .slicknav_collapsed
-      //    background-color:red
-      
-
-
-   // position:fixed
-   // width:100%
    
-   // background:transparent
-   // position:relative
-   // z-index: 200
-   
-
 +below(bpSmall)
    .js #menu
       display:none
@@ -162,8 +148,8 @@ body
             +below(bpMedium)
                col(9/12)
                
-            // +below(bpSmall)
-            //    display:none
+            +below(bpSmall)
+               col(12/12)
 
          right
             col(2/12)
@@ -172,16 +158,24 @@ body
                col(3/12)
 
             +below(bpSmall)
-               display:none
-            //    stack()
+               // display:none
+               col(0/12)
+
 
          
             
       #metaNav
          left
-            col(9/12)      
+            col(9/12)
+            
+            // +below(bpSmall)
+            //    col(12/12)
+
          right
             col(3/12)
+            
+            // +below(bpSmall)
+            //    col(0/12)
       
       #projects
             .project
