@@ -42,35 +42,37 @@ body
    -moz-osx-font-smoothing: grayscale
    
 // Slicknav
-   // .slicknav_menu
-   //    display:none
-   //    z-index:200
-   //    // position:fixed
-   //    float:right
-   //    background-color:transparent
-   //    margin: 0
+.slicknav_menu
+   display:none
+   
+   +below(bpSmall)
+
+      .slicknav_btn
+         float:left
+         background:transparent
       
-   //    .slicknav_btn
-   //       margin:0
-   //       padding:0.7em
-   //       background-color: transparent
-   //       // background-color: red
-         
+      // .slicknav_open
+      //    background-color:white
 
-   //    .slicknav_icon
-   //       margin: 0
-   //       padding-top:0.1em
-         
-   //       .slicknav_icon-bar
-   //          background-color: greyDark
-            
-    
-   //    +below(bpSmall)
-   //       display:block
+      // .slicknav_collapsed
+      //    background-color:red
+      
 
-   //    ul
-   //       display:none
-         
+
+   // position:fixed
+   // width:100%
+   
+   // background:transparent
+   // position:relative
+   // z-index: 200
+   
+
++below(bpSmall)
+   .js #menu
+      display:none
+
+   .js .slicknav_menu
+      display:block
 
 
 // blue strip

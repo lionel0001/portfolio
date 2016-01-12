@@ -1,4 +1,4 @@
-$ ->
+
 
 
 	# console.log 'hello there!'
@@ -14,18 +14,16 @@ $ ->
 
 
 
-	WebFont.load({
-	   google: {
-	      families: ['Fira Sans']
-	   }
-	});
+WebFont.load({
+   google: {
+      families: ['Fira Sans']
+   }
+});
 
+# $('#menu').slicknav()
 
-
-	# $('#menu').slicknav()
-
-	$('#slicknav_nav').slicknav ->
-		prependTo:'.slicknav_menu'
+$('#menu').slicknav
+	label: ''
 	
 
 	# $('#menu').slicknav({
