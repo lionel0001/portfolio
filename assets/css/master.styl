@@ -3,7 +3,7 @@
 
 normalize-css()
 base()
-// edit(red)
+// edit(grey)
 
 projectBoxWidth = 466px
 projectBoxHeight = 250px
@@ -20,11 +20,11 @@ containerMarginRightS = 20px
 containerMarginsS = containerMarginLeftS + containerMarginRightS
 txtSmallCopy = 0.875rem
 
-
-containerWidth = 960px
+containerWidth = 1060px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
 bpSmall = 768px
+
 
 bgcolor = #ECECEC
 greyDark = #424242
@@ -60,16 +60,15 @@ body
    .js .slicknav_menu
       display:block
 
-
 // blue strip
 
    #bluestrip
       width: 20px
       height: 100%
       background: blueLight
-      // display:block
       position:fixed
-      z-index: 100
+      top:0px
+      z-index: 300
       +below(bpSmall)
          display:none
 
@@ -93,18 +92,24 @@ body
          margin-right: 0
          padding-right: containerMarginRightS
          width: "calc(100% - %s)" % containerMarginsS 
-
+      
       h3
          font-size: 1rem
-         font-weight:500
+         font-weight:400
          color: greyDark
-         // line-height: 0.5rem;
-         // margin: 0px
-         // padding:0px
+         margin:0px
+         padding:0px
+         // padding-bottom:.5rem
+         line-height: 1.5625rem
+         
+         
+         .bold
+            font-weight:500
 
          .slogan
             font-weight:400
             font-style:italic
+            // display:inline-block
          
          .status
             font-weight:400
@@ -116,138 +121,125 @@ body
          
          +below(bpSmall)
             font-size: txtSmallCopy
-            
 
-
-      ul
-         reset-list()
-         inline-list: 25 px
-         line-height: 2.5rem;
-         float:right
-         font-weight:400
-         color: blueDark
-         
-         +below(bpMedium)
-            inline-list: 15 px
-      
-         a
-            color: greyDark
-            text-decoration:none
-            transition: color 0.25s ease-in-out;
-         
-         a:hover
-            color: blueDark
-            
       #topBanner
-         margin-top: 0px
-         // margin-bottom: 130px
+         
+         display:block
+         margin-top:35px
 
          left
-            col(10/12)
-            
-            +below(bpMedium)
-               col(9/12)
+            col(8/12)
                
             +below(bpSmall)
                col(12/12)
-
-         right
-            col(2/12)
             
-            +below(bpMedium)
-               col(3/12)
-
+         right
+            col(4/12)
+            
             +below(bpSmall)
                // display:none
                col(0/12)
 
-
-         
-            
-      #metaNav
-         left
-            col(9/12)
-            
-            // +below(bpSmall)
-            //    col(12/12)
-
-         right
-            col(3/12)
-            
-            // +below(bpSmall)
-            //    col(0/12)
-      
-      #projects
-            .project
-               col(1/2, cycle:2)
-               height: projectBoxHeight
-               margin-bottom: 20px
+            ul
+               reset-list()
+               inline-list: 15 px
+               float:right
+               font-weight:400
+               color: blueDark
                
-               +below(bpSmall)
-                  stack()
-                  //max-width: 500px
-                  //display:table
-
-               
+               +below(bpMedium)
+                  inline-list: 15 px
+            
                a
+                  color: blueDark
                   text-decoration:none
-                           
-                  .box
-                     opacity: 1;
-                     cursor: auto;
-                     display: block;
-                     height: projectBoxHeight
-                  
-                     .veil
-                        // background-color:green
-                        opacity:0
-                        width: 50px
-                        height:projectBoxHeight
-                        position:absolute
-                        z-index:0
-                        transition: all 0.25s ease-in-out;
-
-                     h1
-                        font-size: 1.125 rem
-                        font-weight: 500
-                        margin:0
-                        padding:0
-                        color: greyDark
-                        position:relative
-                        z-index: 10
-                        padding-left:15px
-                        padding-right:15px
-                        padding-top:15px
-                        transition: all 0.25s ease-in-out;
-                        
-                     h2
-                        font-size: 0.875 rem
-                        font-weight: 400
-                        font-style: italic
-                        margin:0
-                        padding:0
-                        color: greyMedium
-                        position:relative
-                        z-index: 10
-                        padding-left:15px
-                        padding-right:15px
-                        transition: all 0.25s ease-in-out;
-                        
-                        .moreInfo
-                           color:greyLight
-                           
-                        
+                  transition: color 0.25s ease-in-out;
+               
                a:hover
+                  color: greyMedium
+        
+      #metaNav
+         display:block
+
+         left
+            col(12/12)
+            // margin-top:25px
+            margin-bottom:15px
+
+         // right
+         //    col(4/12)
+
+            
+      #projects
+         
+         .project
+            col(1/2, cycle:2)
+            height: projectBoxHeight
+            margin-bottom: 20px
+            
+            +below(bpSmall)
+               stack()
+               //max-width: 500px
+               //display:table
+                    
+            a
+               text-decoration:none
+                        
+               .box
+                  opacity: 1;
+                  cursor: auto;
+                  display: block;
+                  height: projectBoxHeight
+               
+                  .veil
+                     // background-color:green
+                     opacity:0
+                     width: 50px
+                     height:projectBoxHeight
+                     position:absolute
+                     z-index:0
+                     transition: all 0.25s ease-in-out;
+
+                  h1
+                     font-size: 1.125 rem
+                     font-weight: 500
+                     margin:0
+                     padding:0
+                     color: greyDark
+                     position:relative
+                     z-index: 10
+                     padding-left:15px
+                     padding-right:15px
+                     padding-top:15px
+                     transition: all 0.25s ease-in-out;
+                     
+                  h2
+                     font-size: 0.875 rem
+                     font-weight: 400
+                     font-style: italic
+                     margin:0
+                     padding:0
+                     color: greyMedium
+                     position:relative
+                     z-index: 10
+                     padding-left:15px
+                     padding-right:15px
+                     transition: all 0.25s ease-in-out;
+                     
+                     .moreInfo
+                        color:greyLight
+                             
+            a:hover
+               
+               .box
                   
-                  .box
-                     
-                     .veil
-                        opacity:0.9
-                        background-color:greyDark
-                     
-                     h1, h2
-                        color: greyLight
-                     
+                  .veil
+                     opacity:0.9
+                     background-color:greyDark
+                  
+                  h1, h2
+                     color: greyLight
+                  
    .bgImg-helen
       bg: '/img/street-cut.jpg'
       
