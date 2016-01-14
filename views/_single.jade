@@ -15,6 +15,12 @@ html
 
       != css('/')
 
+         //- Picturefill
+      script
+         !='document.createElement( "picture" )'
+
+      script(src='/js/vendor/jquery.picturefill.min.js' async) 
+
    body
 
       #bluestrip
@@ -43,6 +49,29 @@ html
                         =post.year + " — "+ post.moreinfo
                      else
                         =post.year
+
+               mixin picturefill_3 (img, mediaWidth, alt)
+                  picture
+                     !='<source srcset="' + img + '.png 1x, ' + img + '@2x.png 2x" media="(min-width:'+ mediaWidth +'px)">'
+                     !='<img src="' + img + '@0,5x.png" srcset="' + img + ' 1x, ' + img + '.png 2x" alt="'+ alt +'">'
+
+               div
+                  +picturefill_3 ('/img/helen/top', '768', 'yahooo my name is indra')
+
+               //- mixin picturefill_3 (imgL, mediaL, imgM, mediaM, imgS, mediaS, alt)
+               //-    picture
+               //-       !='<source srcset="' + imgL + ' 1x, ' + imgL + '_retina 2x" media="(min-width:'+ mediaL +'px)">'
+               //-       !='<source srcset="' + imgM + ' 1x, ' + imgM + '_retina 2x" media="(min-width:'+ mediaM +'px)">'
+               //-       !='<img src="' + imgS + '" srcset="' + imgS + ' 1x, ' + imgS + '_retina 2x" alt="'+ alt +'">'
+
+               //- div
+               //-    +picturefill_3 (
+               //-    'http://scottjehl.github.io/picturefill/examples/images/extralarge.jpg', '1000', 
+               //-    'http://scottjehl.github.io/picturefill/examples/images/large.jpg', '768', 
+               //-    'http://scottjehl.github.io/picturefill/examples/images/medium.jpg', '320', 
+               //-    'yahooo my name is indra'
+               //-    )
+
 
 
    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
