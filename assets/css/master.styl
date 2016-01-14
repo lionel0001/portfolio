@@ -21,9 +21,10 @@ containerMarginsS = containerMarginLeftS + containerMarginRightS
 txtSmallCopy = 0.875rem
 
 containerWidth = 1060px
+// containerWidth = 960px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
-bpSmall = 768px
+bpSmall = 600px
 
 
 bgcolor = #ECECEC
@@ -64,6 +65,9 @@ body
 
    .js .slicknav_menu
       display:block
+
+.flip
+   transform: scale(1, -1) 
 
 // blue strip
 
@@ -205,9 +209,88 @@ body
       #projectDescript
          display:block
          
-         left
-            col(12/12)
+         h4
+            font-weight:500
+            line-height: 1.3rem
+            margin: 0px
+         
+         p
+            font-weight:400
+            line-height: 1.3rem
+            margin-top:0
+            
+         a
+            color: greyDark
+            transition: color 0.25s ease-in-out;
+         
+         a:hover
+            color: blueDark
 
+         #upperPart
+            col(1)
+
+            picture
+               img.topImage
+                  margin-top: 15px
+                  +below(bpMedium)
+                     width:90%
+                  +below(bpSmall)
+                     width:100%
+        
+         #description
+            left
+            right
+               margin-top: 1.5rem
+
+            left
+               col(6/12)
+               shift(6/12)
+ 
+               ul
+                  reset-list()
+                  
+               +below(bpSmall)
+                  stack()
+                  shift(0)
+                   
+            right
+               col(6/12)
+               shift(-6/12)
+               
+               ul.process
+                  reset-list()
+                  margin-bottom:1rem
+                  
+                  li:before
+                     content: "\2192"
+                     margin-right:7px
+                     list-style-position: inside
+                   
+                  a
+                     color: greyDark
+                     transition: color 0.25s ease-in-out;
+                  
+                  a:hover
+                     color: blueDark
+
+               ul.press
+                  margin-bottom:1rem
+                  margin-left: -1rem
+                  margin-top: 0px
+                  list-style-type:disc
+
+                  
+                  li:before
+                     list-style-position: outside  
+                  
+                  // li:after
+                  //    content: "\2912"
+                  //    margin-left 0px
+            
+               +below(bpSmall)
+                  stack()
+                  shift(0)
+               
 
 
       #projects
