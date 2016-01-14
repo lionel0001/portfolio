@@ -1,72 +1,56 @@
 doctype html
 html
 
-  head
-    meta(charset='utf8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-    meta(name='description', content='description of your site')
-    meta(name='author', content= "author of the site")
-    //- uncomment if your site is responsive!
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    title= _path
+   head
+      meta(charset='utf8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+      meta(name='description', content='description of your site')
+      meta(name='author', content= "author of the site")
+      //- uncomment if your site is responsive!
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      title= _path
 
-    link(href='/css/vendor/flexslider.css', rel='stylesheet')
-    link(href='/css/vendor/slicknav.css', rel='stylesheet')
+      link(href='/css/vendor/flexslider.css', rel='stylesheet')
+      link(href='/css/vendor/slicknav.css', rel='stylesheet')
 
-    != css('/')
+      != css('/')
 
-  body
-    
-   
+   body
 
-    header
-        h1= post.title
-        h4 by #{post.author}
+      #bluestrip
 
-        //- p ----
-        //- p= JSON.stringify(post)
-        //- p ----
+      #container
 
-    #main
-        article
-            if post.process
-                p= 'Process: '+post.process
+         include _topnav
 
-            if post.supervisionFH 
-                p= 'supervised by: '+post.process+' at '
-                    a(href='http://www.fh-potsdam.de') University of Appliance Potsdam, Germany
+         #metaNav
+            left
 
-            if post.press
-                p Presented at:
-                ul
-                    each val in post.press
-                        li  
-                            a(href=val[1])  #{val[0]}
-            
-            if post.more
-                h5 More information
-                ul
-                    each val in post.more
-                        li  
-                            a(href=val[1])  #{val[0]}
+               span.vertSpace75
+               h3
+                  a(href='../') Back to the overview
+
+         #projectDescript
+            left
+               h1= post.title
+               h3
+                  span.projectSubtitle
+                     =post.subtitle
+               h3
+                  span.projectYear
+
+                     if post.moreinfo
+                        =post.year + " — "+ post.moreinfo
+                     else
+                        =post.year
 
 
-            block presentation
-        nav
-            block details
-        aside
-            p aside
+   script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+   script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
+   script(src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js')
 
-    footer
-        p footer
-    
-    
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
-    script(src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js')
- 
 
-    script(src='/js/vendor/jquery.flexslider-min.js')
-    script(src='/js/vendor/jquery.slicknav.min.js') 
+   script(src='/js/vendor/jquery.flexslider-min.js')
+   script(src='/js/vendor/jquery.slicknav.min.js') 
 
-    != js('/')
+   != js('/')

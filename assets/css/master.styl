@@ -41,6 +41,11 @@ body
    -webkit-font-smoothing: antialiased
    -moz-osx-font-smoothing: grayscale
    
+
+.vertSpace75
+   height:75px
+   display:block
+
 // Slicknav
 
 .slicknav_menu
@@ -102,7 +107,6 @@ body
          // padding-bottom:.5rem
          line-height: 1.5625rem
          
-         
          .bold
             font-weight:500
 
@@ -119,8 +123,36 @@ body
             font-weight:400
             color: blueDark
          
+         .projectSubtitle
+            font-weight:400
+            font-style:italic
+            color: greyMedium
+
+         .projectYear
+            font-weight:400
+            color: greyLight
+
+
+         a
+            color: blueDark
+            text-decoration:none
+            transition: color 0.25s ease-in-out;
+               
+         a:hover
+            color: greyMedium
+         
          +below(bpSmall)
             font-size: txtSmallCopy
+            
+      h1
+         font-size: 1.75rem
+         font-weight:400
+         color: greyDark
+         margin:0px
+         padding:0px
+
+
+
 
       #topBanner
          
@@ -169,7 +201,15 @@ body
          // right
          //    col(4/12)
 
-            
+      
+      #projectDescript
+         display:block
+         
+         left
+            col(12/12)
+
+
+
       #projects
          
          .project
@@ -239,15 +279,27 @@ body
                   
                   h1, h2
                      color: greyLight
-                  
-   .bgImg-helen
-      bg: '/img/street-cut.jpg'
-      
-   .bgImg-knowledge
-      bg: '/img/street.jpg'
 
-   .bgImg-geolinguistic
-      bg: '/img/street.jpg'
-              
-   .bgImg-urbanweave
-      bg: '/img/street.jpg' 
+
+// specific css
+
+// home               
+.bgImg-helen
+   bg: '/img/street-cut.jpg'
+   
+.bgImg-knowledge
+   bg: '/img/street.jpg'
+
+.bgImg-geolinguistic
+   bg: '/img/street.jpg'
+           
+.bgImg-urbanweave
+   bg: '/img/street.jpg' 
+      
+// projects
+
+
+
+
+
+
