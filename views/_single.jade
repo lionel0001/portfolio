@@ -59,8 +59,10 @@ html
                   +picturefill_3 ('/img/'+ post.id +'/top', '768', 'yahooo my name is indra')
          
             #description
- 
                left
+                  block description
+
+               right
                   if post.process
                      h4 Process
                      ul.process
@@ -68,28 +70,26 @@ html
                            li= val
 
                   if post.press
-                     h4 Presented at:
+                     h4 Presented at
                      ul.press
                         each val in post.press
                            li  
                               a(href=val[1])  #{val[0]} 
 
                   if post.supervisionFH 
-                     h4 Supervision
-                     p= post.supervisionFH + ' at the ' 
+                     //- h4 Supervision
+                     p= 'Supervised by ' + post.supervisionFH + ' at the ' 
                         a(href='http://www.fh-potsdam.de') University of Appliance Potsdam, Germany
 
+            //- #more
+            //-    left
 
-               right
-                  block description
-
-                  if post.more
-                     h4 More information
-                     ul
-                        each val in post.more
-                           li  
-                              a(href=val[1])  #{val[0]}
-
+            //-       if post.more
+            //-          h4 More information
+            //-          ul
+            //-             each val in post.more
+            //-                li  
+            //-                   a(href=val[1])  #{val[0]}
 
    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')

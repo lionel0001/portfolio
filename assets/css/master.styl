@@ -42,6 +42,10 @@ body
    -webkit-font-smoothing: antialiased
    -moz-osx-font-smoothing: grayscale
    
+   +below(bpSmall)
+      font-size: txtSmallCopy
+
+   
 
 .vertSpace75
    height:75px
@@ -60,14 +64,16 @@ body
          background:transparent
    
 +below(bpSmall)
+
+   // font-size: txtSmallCopy
+
    .js #menu
       display:none
 
    .js .slicknav_menu
       display:block
 
-.flip
-   transform: scale(1, -1) 
+
 
 // blue strip
 
@@ -108,8 +114,10 @@ body
          color: greyDark
          margin:0px
          padding:0px
-         // padding-bottom:.5rem
          line-height: 1.5625rem
+         
+         +below(bpSmall)
+            line-height:1.3rem
          
          .bold
             font-weight:500
@@ -149,11 +157,15 @@ body
             font-size: txtSmallCopy
             
       h1
-         font-size: 1.75rem
+         font-size: 1.5rem
          font-weight:400
          color: greyDark
          margin:0px
          padding:0px
+         
+         +below(bpSmall)
+            line-height:1.75rem
+            margin-bottom: 4px
 
 
 
@@ -213,12 +225,16 @@ body
             font-weight:500
             line-height: 1.3rem
             margin: 0px
+            
          
          p
             font-weight:400
             line-height: 1.3rem
             margin-top:0
-            
+         
+            .inlineTitle
+               font-weight:500
+
          a
             color: greyDark
             transition: color 0.25s ease-in-out;
@@ -238,24 +254,37 @@ body
                      width:100%
         
          #description
+            
+            h4
+               +below(bpSmall)
+                  margin-top:5px
+                  padding-top:5px
+                  border-top: 1px solid greyDark
+            
+            h4,p,ul
+               color:greyDark    
+
             left
             right
                margin-top: 1.5rem
+               
+               +below(bpSmall)
+                  margin:0px
+               
 
             left
                col(6/12)
-               shift(6/12)
  
                ul
                   reset-list()
                   
                +below(bpSmall)
                   stack()
-                  shift(0)
+                  padding-top: 1rem
                    
             right
                col(6/12)
-               shift(-6/12)
+               // color:greyMedium
                
                ul.process
                   reset-list()
@@ -266,31 +295,31 @@ body
                      margin-right:7px
                      list-style-position: inside
                    
-                  a
-                     color: greyDark
-                     transition: color 0.25s ease-in-out;
-                  
-                  a:hover
-                     color: blueDark
+
 
                ul.press
                   margin-bottom:1rem
                   margin-left: -1rem
                   margin-top: 0px
-                  list-style-type:disc
+                  list-style-type:circle
 
                   
                   li:before
-                     list-style-position: outside  
-                  
-                  // li:after
-                  //    content: "\2912"
-                  //    margin-left 0px
+                     list-style-position: outside
+                     
+                  li
+                     a
+                        color: greyDark
+                        transition: color 0.25s ease-in-out;
+                     
+                     a:hover
+                        color: blueDark
             
                +below(bpSmall)
                   stack()
-                  shift(0)
-               
+                  
+         #more
+            
 
 
       #projects
