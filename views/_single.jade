@@ -81,15 +81,15 @@ html
                      p= 'Supervised by ' + post.supervisionFH + ' at the ' 
                         a(href='http://www.fh-potsdam.de') University of Appliance Potsdam, Germany
 
-            //- #more
-            //-    left
+            #more
+               
+               if post.more
+                     h4.onlyMobile More information
+                     ul
+                        each val in post.more
+                           li  
+                              a(href=val[1])  #{val[0]}
 
-            //-       if post.more
-            //-          h4 More information
-            //-          ul
-            //-             each val in post.more
-            //-                li  
-            //-                   a(href=val[1])  #{val[0]}
 
    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')

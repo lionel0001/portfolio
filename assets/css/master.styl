@@ -51,6 +51,11 @@ body
    height:75px
    display:block
 
+.onlyMobile
+   display:none
+   +below(bpSmall)
+      display:block
+
 // Slicknav
 
 .slicknav_menu
@@ -277,18 +282,29 @@ body
  
                ul
                   reset-list()
+               
+               +below(bpMedium)
+                  col(6/12)
                   
                +below(bpSmall)
                   stack()
                   padding-top: 1rem
                    
             right
-               col(6/12)
+               col(5/12)
                // color:greyMedium
                
+               +below(bpMedium)
+                  col(6/12)
+
+               +below(bpSmall)
+                  stack()
+
                ul.process
                   reset-list()
+                  font-style: italic
                   margin-bottom:1rem
+                  
                   
                   li:before
                      content: "\2192"
@@ -315,10 +331,15 @@ body
                      a:hover
                         color: blueDark
             
-               +below(bpSmall)
-                  stack()
+   
                   
-         // #more
+         #more
+            col()
+            background-color:red
+            border-radius: 4px
+
+
+            
             
 
 
