@@ -36,7 +36,7 @@ blueLight = #C1DEFF
 
 
 body
-   background: bgcolor   
+   // background-color: yellow   
    font-family: fira
    
    -webkit-font-smoothing: antialiased
@@ -45,7 +45,6 @@ body
    +below(bpSmall)
       font-size: txtSmallCopy
 
-   
 
 .vertSpace75
    height:75px
@@ -61,7 +60,6 @@ body
 .slicknav_menu
    display:none
    
-   
    +below(bpSmall)
 
       .slicknav_btn
@@ -70,14 +68,11 @@ body
    
 +below(bpSmall)
 
-   // font-size: txtSmallCopy
-
    .js #menu
       display:none
 
    .js .slicknav_menu
       display:block
-
 
 
 // blue strip
@@ -95,23 +90,27 @@ body
 // content
 
    #container
-      padding-top: 0px
-      margin-top: 0px
-      margin-left: containerMarginLeftXL
-      margin-right: containerMarginRightXL
+      padding: 0px
+      margin: 0px
+      padding-left: containerMarginLeftXL
+      padding-right: containerMarginRightXL
       width: containerWidth
+      background-color:cyan
       
+   
       +below(bpMedium)
-         margin-left: containerMarginLeftL
-         padding-right: containerMarginRightL
-         width: "calc(100% - %s)" % containerMargins   
+         // margin-left: containerMarginLeftL
+         // padding-right: containerMarginRightL
+         width: "calc(100% - %s)" % containerMargins 
+         background-color:red
+  
       
       +below(bpSmall)
-         // padding-top: 20px
-         margin-left: containerMarginLeftS
-         margin-right: 0
+         padding-top: 20px
+         padding-left: containerMarginLeftS
          padding-right: containerMarginRightS
-         width: "calc(100% - %s)" % containerMarginsS 
+         width: "calc(100% - %s)" % containerMarginsS
+         background-color:magenta
       
       h3
          font-size: 1rem
@@ -172,13 +171,11 @@ body
             line-height:1.75rem
             margin-bottom: 4px
 
-
-
-
       #topBanner
          
          display:block
-         margin-top:35px
+         // margin-top:35px
+         background-color:red
 
          left
             col(8/12)
@@ -280,15 +277,15 @@ body
             left
                col(6/12)
  
-               ul
-                  reset-list()
-               
                +below(bpMedium)
                   col(6/12)
                   
                +below(bpSmall)
                   stack()
                   padding-top: 1rem
+               ul
+                  reset-list()
+               
                    
             right
                col(5/12)
@@ -330,18 +327,14 @@ body
                      
                      a:hover
                         color: blueDark
-            
-   
-                  
-         #more
-            col()
-            background-color:red
-            border-radius: 4px
-
-
-            
-            
-
+                 
+         // #more
+         //    left
+         //       col(10/12)
+         //       background-color:red
+         //       border-radius: 4px
+         //    right
+         //       column(2/12)
 
       #projects
          
