@@ -78,25 +78,26 @@ ul
 
  
 h1
-   font-size: 1.125rem
-   margin:0px
-   font-weight:400
-   color: greyDark
-   
-   +below(bpSmall)
-      line-height:1.9rem
-      padding: 5px 0px   
-
-
-h2
    font-size: 1.75rem
    margin:0px
    font-weight:400
    color: greyDark
    
    +below(bpSmall)
+      font-size: 1.5rem
       line-height:1.9rem
-      padding: 5px 0px  
+      padding: 5px 0px   
+
+
+h2
+   font-size: 1.5rem
+   margin:0px
+   font-weight:400
+   color: greyDark
+   
+   // +below(bpSmall)
+   line-height:1.9rem
+   padding: 1.3rem 0px  
 
 
 h3
@@ -157,8 +158,29 @@ h4
    +below(bpSmall)
       width:100%
 
-
+.svgEmbed
+   col(9/12)
+   // margin-top:1.3rem
+   border: 1px solid greyUltraLight
+   padding:1.9rem
+   // box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
+   // box-shadow: 3px 3px 3px grey;
    
+   // opacity: 0.2
+   
+   // width:100px
+   
+   +below(bpMedium)
+      col(10/12)
+
+   +below(bpSmall)
+      border:none
+      padding:0px
+      margin-top:0.65rem
+      stack()
+
+
+
 // content
 
 // slick menu
@@ -323,8 +345,9 @@ h4
       
       ul.more
          list-style-type:none
+         margin-bottom:20px
          padding-bottom:0px
-         padding-top:20px
+         padding-top:0.325rem
 
          +below(bpSmall)
             padding-top:0px
@@ -360,7 +383,32 @@ h4
             
    .rubric
       // padding-top:20px
-      col(1)
+      
+      .contentBox
+         col(1)
+         
+         left
+            col(7/12)
+            
+            +below(bpMedium)
+               col(7/12)
+            +below(bpSmall)
+               stack()
+            
+         
+            // opacity: 0.2
+            // width:100px
+
+
+                        
+
+      right
+         col(6/12)
+         
+         +below(bpMedium)
+            col(5/12)
+         +below(bpSmall)
+            stack()
       
       // shift the anchor in order to compensate the size of the mobile fixed menu
       a.anchor

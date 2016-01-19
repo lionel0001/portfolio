@@ -106,17 +106,20 @@ html
                      li  
                         a(href="#"+val[1])  #{val[0]}
 
-         if post.more
-            each val in post.more
+
+            block additionalContent
+
+         //- //- dynamic blocl calling doesn't exist 
+         //- if post.more
+         //-    each val in post.more
                   
-                  .rubric
+         //-          .rubric
 
-                     a.anchor(id=val[1])
+         //-             a.anchor(id=val[1])
 
-                     h1= val[0]
+         //-             h2= val[0]
 
-                     p dfalskalksh alskjfhglakshfalksd halksdfh alksdfhaklsdjhf slakdjhf laksdjfhalksdh alksjdfhalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfalsalskjdfh alksjdhf laskjhf lkajdhsflka sdfhlakjsdf akljsdhfl ajksdhfl akjsdhf lakjsdhfl kajsdfl ajksdfhlah alksdjh lkajsdhfl aksjljsdfals
-
+         //-             block val[1]
 
 
 
