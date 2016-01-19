@@ -3,7 +3,7 @@
 
 normalize-css()
 base()
-// edit(grey)
+// edit(red)
 
 projectBoxWidth = 466px
 projectBoxHeight = 250px
@@ -14,14 +14,16 @@ containerMarginRightXL = 40px
 containerMarginLeftL = 60px
 containerMarginRightL = 40px
 containerMargins = containerMarginLeftL  + containerMarginRightL
+txtMediumCopy = 0.9375rem
 
 containerMarginLeftS = 20px
 containerMarginRightS = 20px
 containerMarginsS = containerMarginLeftS + containerMarginRightS
 txtSmallCopy = 0.875rem
+// txtSmallLineHeigh = 
 
-containerWidth = 1060px
-// containerWidth = 960px
+// containerWidth = 1060px
+containerWidth = 960px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
 bpSmall = 600px
@@ -33,397 +35,322 @@ greyMedium = #767676
 greyLight = #9E9E9E
 blueDark = #488FC7
 blueLight = #C1DEFF
+greyUltraLight = #ECECEC
 
+*
+   padding:0px
+   margin:0px
 
 body
-   // background-color: yellow   
+   background-color: #969696   
    font-family: fira
    
    -webkit-font-smoothing: antialiased
    -moz-osx-font-smoothing: grayscale
    
+   +below(bpMedium)
+      font-size: txtMediumCopy
+
    +below(bpSmall)
       font-size: txtSmallCopy
 
+p
+   font-weight:400
+   line-height: 1.3rem
+   padding-bottom: 1.3rem
+ 
+   .inlineTitle
+      font-weight:500
 
-.vertSpace75
-   height:75px
-   display:block
+a
+   color: greyDark
+   text-decoration:underline
+       
+a:hover
+   color: blueDark   
 
-.onlyMobile
-   display:none
-   +below(bpSmall)
-      display:block
 
-// Slicknav
+ul
+   padding-bottom:1.3rem
 
-.slicknav_menu
-   display:none
+   li
+      line-height:1.3rem
+
+ 
+h1
+   font-size: 1.75rem
+   margin:0px
+   font-weight:400
+   color: greyDark
    
    +below(bpSmall)
+      line-height:1.9rem
+      padding: 5px 0px   
 
+h3
+   font-size: 1rem
+   font-weight:400
+   color: greyDark
+   line-height: 1.65rem
+    
+   +below(bpSmall)
+      line-height:1.3rem
+    
+   .bold
+      font-weight:500
+
+   .slogan
+      font-weight:400
+      font-style:italic
+    
+   .status
+      font-weight:400
+      color: greyMedium
+    
+   .blue
+      font-weight:400
+      color: blueDark
+    
+   .projectSubtitle
+      font-weight:400
+      font-style:italic
+      color: greyMedium
+
+   .projectYear
+      font-weight:400
+      color: greyLight
+
+h4
+   font-weight:500
+   line-height: 1.3rem
+   
+   .onlyMobile 
+      display:block
+      +below(bpSmall)
+         display:none
+         
+   .borderTop
+      +below(bpSmall)
+         display:block
+         margin-top:5px
+         padding-top:5px
+         border-top: 1px solid greyDark
+
+      
+.topImage
+   padding-top: 10px
+   padding-bottom:10px
+   +below(bpMedium)
+      width:90%
+   +below(bpSmall)
+      width:100%
+
+
+   
+// content
+
+// slick menu
+.slicknav_menu
+   display:none
+    
+   +below(bpSmall)
+      position:fixed
+      display:block
+      width:100%
+ 
       .slicknav_btn
          float:left
          background:transparent
-   
+    
 +below(bpSmall)
-
+ 
    .js #menu
       display:none
-
+ 
    .js .slicknav_menu
       display:block
 
 
-// blue strip
-
-   #bluestrip
-      width: 20px
-      height: 100%
-      background: blueLight
-      position:fixed
-      top:0px
-      z-index: 300
-      +below(bpSmall)
-         display:none
-
-// content
-
-   #container
-      padding: 0px
-      margin: 0px
-      padding-left: containerMarginLeftXL
-      padding-right: containerMarginRightXL
-      width: containerWidth
-      background-color:cyan
-      
+#bluestrip
+   width: 20px
+   height: 100%
+   background: blueLight
+   position:fixed
+   top:0px
+   z-index: 300
+   +below(bpSmall)
+      display:none
+ 
+#greyContainer, #whiteContainer
+   padding:0px
+   margin:0px
+   padding-left: containerMarginLeftXL
+   padding-right: containerMarginRightXL
+   padding-bottom: 1.3rem
+   width: containerWidth
+   overflow:hidden
    
-      +below(bpMedium)
-         // margin-left: containerMarginLeftL
-         // padding-right: containerMarginRightL
-         width: "calc(100% - %s)" % containerMargins 
-         background-color:red
-  
+   +below(bpMedium)
+      // padding-left: containerMarginLeftL
+      // padding-right: containerMarginRightL
+      width: "calc(100% - %s)" % containerMargins 
+      background-color:red
+
+    
+   +below(bpSmall)
+      padding-top: 20px
+      padding-left: containerMarginLeftS
+      padding-right: containerMarginRightS
+      width: "calc(100% - %s)" % containerMarginsS
+      background-color:magenta
+   
+
+#greyContainer
+   background-color: greyUltraLight
+
+   
+   #topBanner
       
+      padding-top:35px
       +below(bpSmall)
-         padding-top: 20px
-         padding-left: containerMarginLeftS
-         padding-right: containerMarginRightS
-         width: "calc(100% - %s)" % containerMarginsS
-         background-color:magenta
+         // height of the slicknav_menu
+         padding-top:49px
       
-      h3
-         font-size: 1rem
-         font-weight:400
-         color: greyDark
-         margin:0px
-         padding:0px
-         line-height: 1.5625rem
+      left
+         col(8/12)
          
          +below(bpSmall)
-            line-height:1.3rem
-         
-         .bold
-            font-weight:500
+               col(12/12)
 
-         .slogan
-            font-weight:400
-            font-style:italic
-            // display:inline-block
+      right
+         col(4/12)
          
-         .status
-            font-weight:400
-            color: greyMedium
-         
-         .blue
+         +below(bpSmall)
+            col(0/12)
+      
+         ul
+            reset-list()
+            inline-list: 15 px
+            float:right
             font-weight:400
             color: blueDark
          
-         .projectSubtitle
-            font-weight:400
-            font-style:italic
-            color: greyMedium
-
-         .projectYear
-            font-weight:400
-            color: greyLight
-
-
          a
             color: blueDark
             text-decoration:none
             transition: color 0.25s ease-in-out;
-               
+          
          a:hover
             color: greyMedium
-         
-         +below(bpSmall)
-            font-size: txtSmallCopy
-            
-      h1
-         font-size: 1.5rem
-         font-weight:400
-         color: greyDark
-         margin:0px
-         padding:0px
-         
-         +below(bpSmall)
-            line-height:1.75rem
-            margin-bottom: 4px
 
-      #topBanner
-         
-         display:block
-         // margin-top:35px
-         background-color:red
-
-         left
-            col(8/12)
-               
-            +below(bpSmall)
-               col(12/12)
-            
-         right
-            col(4/12)
-            
-            +below(bpSmall)
-               // display:none
-               col(0/12)
-
-            ul
-               reset-list()
-               inline-list: 15 px
-               float:right
-               font-weight:400
-               color: blueDark
-               
-               +below(bpMedium)
-                  inline-list: 15 px
-            
-               a
-                  color: blueDark
-                  text-decoration:none
-                  transition: color 0.25s ease-in-out;
-               
-               a:hover
-                  color: greyMedium
-        
-      #metaNav
-         display:block
-
-         left
-            col(12/12)
-            // margin-top:25px
-            margin-bottom:15px
-
-         // right
-         //    col(4/12)
-
+   #metaNav
       
-      #projectDescript
-         display:block
+      padding-top:85px
+      +below(bpSmall)
+         padding-top:45px
+      
+      col(1)
+   
+   #projectDescript
+      
+      #header
+         col(1)
+   
+      #description
          
-         h4
-            font-weight:500
-            line-height: 1.3rem
-            margin: 0px
+         left
+            col(6/12)
             
-         
-         p
-            font-weight:400
-            line-height: 1.3rem
-            margin-top:0
-         
-            .inlineTitle
-               font-weight:500
-
-         a
-            color: greyDark
-            transition: color 0.25s ease-in-out;
-         
-         a:hover
-            color: blueDark
-
-         #upperPart
-            col(1)
-
-            picture
-               img.topImage
-                  margin-top: 15px
-                  +below(bpMedium)
-                     width:90%
-                  +below(bpSmall)
-                     width:100%
-        
-         #description
-            
-            h4
-               +below(bpSmall)
-                  margin-top:5px
-                  padding-top:5px
-                  border-top: 1px solid greyDark
-            
-            h4,p,ul
-               color:greyDark    
-
-            left
-            right
-               margin-top: 1.5rem
-               
-               +below(bpSmall)
-                  margin:0px
-               
-
-            left
-               col(6/12)
- 
-               +below(bpMedium)
-                  col(6/12)
-                  
-               +below(bpSmall)
-                  stack()
-                  padding-top: 1rem
-               ul
-                  reset-list()
-               
-                   
-            right
-               col(5/12)
-               // color:greyMedium
-               
-               +below(bpMedium)
-                  col(6/12)
-
-               +below(bpSmall)
-                  stack()
-
-               ul.process
-                  reset-list()
-                  font-style: italic
-                  margin-bottom:1rem
-                  
-                  
-                  li:before
-                     content: "\2192"
-                     margin-right:7px
-                     list-style-position: inside
-                   
-
-
-               ul.press
-                  margin-bottom:1rem
-                  margin-left: -1rem
-                  margin-top: 0px
-                  list-style-type:circle
-
-                  
-                  li:before
-                     list-style-position: outside
-                     
-                  li
-                     a
-                        color: greyDark
-                        transition: color 0.25s ease-in-out;
-                     
-                     a:hover
-                        color: blueDark
-                 
-         // #more
-         //    left
-         //       col(10/12)
-         //       background-color:red
-         //       border-radius: 4px
-         //    right
-         //       column(2/12)
-
-      #projects
-         
-         .project
-            col(1/2, cycle:2)
-            height: projectBoxHeight
-            margin-bottom: 20px
-            
+            +below(bpMedium)
+               col(7/12)
             +below(bpSmall)
                stack()
-               //max-width: 500px
-               //display:table
-                    
-            a
-               text-decoration:none
-                        
-               .box
-                  opacity: 1;
-                  cursor: auto;
-                  display: block;
-                  height: projectBoxHeight
-               
-                  .veil
-                     // background-color:green
-                     opacity:0
-                     width: 50px
-                     height:projectBoxHeight
-                     position:absolute
-                     z-index:0
-                     transition: all 0.25s ease-in-out;
+            
+         right
+            col(6/12)
+            
+            +below(bpMedium)
+               col(5/12)
+            +below(bpSmall)
+               stack()
 
-                  h1
-                     font-size: 1.125 rem
-                     font-weight: 500
-                     margin:0
-                     padding:0
+            ul.process
+               font-style: italic
+               list-style-type:none
+                
+               li:before
+                  content: "\2192"
+                  margin-right:7px
+                  list-style-position: inside
+
+            ul.press
+               margin-left: 1.35rem
+               list-style-type:circle
+               list-style-position: outside
+  
+               li
+                  a
                      color: greyDark
-                     position:relative
-                     z-index: 10
-                     padding-left:15px
-                     padding-right:15px
-                     padding-top:15px
-                     transition: all 0.25s ease-in-out;
-                     
-                  h2
-                     font-size: 0.875 rem
-                     font-weight: 400
-                     font-style: italic
-                     margin:0
-                     padding:0
-                     color: greyMedium
-                     position:relative
-                     z-index: 10
-                     padding-left:15px
-                     padding-right:15px
-                     transition: all 0.25s ease-in-out;
-                     
-                     .moreInfo
-                        color:greyLight
-                             
-            a:hover
-               
-               .box
-                  
-                  .veil
-                     opacity:0.9
-                     background-color:greyDark
-                  
-                  h1, h2
-                     color: greyLight
+                     transition: color 0.25s ease-in-out;
+                   
+                  a:hover
+                     color: blueDark
 
+#whiteContainer
+   background-color: white
+   padding-top: 1.3rem
 
-// specific css
-
-// home               
-.bgImg-helen
-   bg: '/img/street-cut.jpg'
-   
-.bgImg-knowledge
-   bg: '/img/street.jpg'
-
-.bgImg-geolinguistic
-   bg: '/img/street.jpg'
-           
-.bgImg-urbanweave
-   bg: '/img/street.jpg' 
+   #subNav
+      col(1)
       
-// projects
+      ul.more
+         list-style-type:none
+         padding-bottom:0px
+         padding-top:20px
 
+         +below(bpSmall)
+            padding-top:0px
+            background-color:blueLight
+            border-radius: 4px
+         
+         li
+            // line-height:1.6rem
+            
+            +below(bpSmall)
+               padding-top: 18px
+               padding-bottom: 18px
+               padding-left:18px
+               border-bottom: 1px dashed white
+               
+         li:last-child
+               +below(bpSmall)
+                  border-bottom: 0px
+               
+            a
+               color: blueDark
+               text-decoration:none
+               transition: color 0.25s ease-in-out;
+                  
+            a:hover
+               color: greyDark
+   
+         li:before
+            color: blueDark
+            content: "\21e3"
+            margin-right:7px
+            list-style-position: inside              
+            
+   .rubric
+      // padding-top:20px
+      col(1)
+      
+      // shift the anchor in order to compensate the size of the mobile fixed menu
+      a.anchor
+         +below(bpSmall)
+            display: block;
+            position: relative;
+            top: -50px;
+            visibility: hidden;
 
 
 
