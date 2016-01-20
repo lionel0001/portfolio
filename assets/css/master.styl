@@ -23,7 +23,7 @@ txtSmallCopy = 0.875rem
 // txtSmallLineHeigh = 
 
 // containerWidth = 1060px
-containerWidth = 960px
+containerWidth = 1160px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
 bpSmall = 768px
@@ -57,7 +57,7 @@ body
 p
    font-weight:400
    line-height: 1.3rem
-   padding-bottom: 1.3rem
+   margin-bottom: 1.3rem
  
    .inlineTitle
       font-weight:500
@@ -170,6 +170,12 @@ h4
 .vSpace
    margin-bottom:2rem
 
+.borderRight
+   border-left: 0.225rem solid greyMedium
+   padding-left: 1.3rem
+   display:block
+
+
 // content
 
 // slick menu
@@ -278,6 +284,16 @@ h4
       
       #header
          col(1)
+         
+         .projectImage
+            padding: 1.3rem 0
+            
+            +below(bpMedium)
+               padding: 1rem 0
+            +below(bpSmall)
+               padding: 0.65rem 0
+         
+
    
       #description
          
@@ -372,12 +388,12 @@ h4
             
    .rubric
       col(1)
-      border-top: 1px solid greyLight
+      // border-top: 1px solid greyLight
       
       .contentBox
-         col(1)
+         //col(1)
          
-         left
+         .single
             col(7/12)
             padding-top:0.65rem
             
@@ -385,14 +401,26 @@ h4
                col(7/12)
             +below(bpSmall)
                stack()
-
-      // right
-      //    col(6/12)
          
-      //    +below(bpMedium)
-      //       col(5/12)
-      //    +below(bpSmall)
-      //       stack()
+         left
+            col(3/12)
+            
+            +below(bpMedium)
+               col(4/12)
+            +below(bpSmall)
+               stack()
+            
+         right
+            col(9/12)
+            
+            img
+               width:100%
+            
+            +below(bpMedium)
+               col(8/12)
+            +below(bpSmall)
+               stack()
+
       
       // shift the anchor in order to compensate the size of the mobile fixed menu
       a.anchor

@@ -23,8 +23,8 @@ press: [
 ]
 
 more: [
-    ['Concept in details','concept'],
-    ['Final screens','final']
+    ['Concept','concept'],
+    ['iPad app features','final']
 ]
 
 _content: false
@@ -47,10 +47,10 @@ block additionalContent
   .rubric
     
     a.anchor(id='concept')
-    h2 Concept in details
+    h2 Concept
 
     .contentBox
-      left
+      .single
         h4 A node-based ebook entry representation
         p Each book entry is represented in the catalog through a diagram summing up the quantities of its incoming and outcoming connections. Available in two perspectives, it visualizes alternatively the amount of users’ interactions (yellow) or the amount of authors’ citations (blue). Depending on the perspective, further related pieces of information could be also displayed.
 
@@ -58,7 +58,7 @@ block additionalContent
       img.descripSVG(src= '/img/helen/entry.svg') 
 
     .contentBox
-      left
+      .single
         
         h4 Letting the users collect, annotate and connect ebooks together
         p Helen enables the user to highlight text sections and to link those together in order to facilitate the connection of ideas and support the creation of personal knowledge (similar to the Memex). Linked highlights may be publically or privatly shared. 
@@ -67,7 +67,7 @@ block additionalContent
       img.descripSVG(src= '/img/helen/diagramm-social.svg') 
 
     .contentBox
-      left
+      .single
         h4 Harvesting citations
         p Helen takes over authors’ footnotes and citations in order to transform them into navigable links to ebooks and web pages. Although not directly reachable, physical books are also meant to be taken in account.  
 
@@ -78,40 +78,51 @@ block additionalContent
   .rubric
 
     a.anchor(id='final')
-    h2 Final screens
+    h2 iPad app features
 
     .contentBox
-      left
+      .single
    
-        h4 A facet navigation augmented with information visualizations
-        p In contrary to conventional library digital catalogs, the user is able to quicky and visually asset the proportions and the quantities within each facet. 
+        h4.borderRight A facet navigation augmented with information visualizations
+        p.borderRight In contrary to conventional library digital catalogs, the user is able to quicky and visually asset the proportions and the quantities within each facet. 
     
     .contentBox.vSpace
         +picturefill_3 ('/img/'+ post.id +'/facet', '768', 'bla')
 
     .contentBox
-      left
+      .single
    
-        h4 Incoming and outcoming links
-        p By sorting search results by the number of incoming and outcoming links, the user is able to discover either which ebook is the most cited or which ebook is mostly forwarding to further contents.  
+        h4.borderRight Incoming and outcoming links
+        p.borderRight By sorting search results by the number of incoming and outcoming links, the user is able to discover either which ebook is the most cited or which ebook is mostly forwarding to further contents.  
     
     .contentBox.vSpace
         +picturefill_3 ('/img/'+ post.id +'/inout', '768', 'bla')
 
     .contentBox
-      left
+      .single
    
-        h4 Exploring the diversity of the linked contents
-        p Chapter by chapter, the user is invited to explore the linked contents and the highlights from which they start . Beyond ebooks, any web-based artifact may be linked to. 
+        h4.borderRight Exploring the diversity of the linked contents
+        p.borderRight Chapter by chapter, the user is invited to explore the linked contents and the highlights from which they start . Beyond ebooks, any web-based artifact may be linked to. 
     
     .contentBox.vSpace
         +picturefill_3 ('/img/'+ post.id +'/link-diversity', '768', 'bla')
 
+
+    //- .contentBox
+    //-   left
+    //-     h4 Saving
+    //-     p Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
+    
+    //-   right
+    //-       +picturefill_3 ('/img/'+ post.id +'/saving', '768', 'bla')
+
+
+
     .contentBox
-      left
+      .single
    
-        h4 Saving
-        p Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
+        h4.borderRight Saving
+        p.borderRight Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
     
     .contentBox.vSpace
         +picturefill_3 ('/img/'+ post.id +'/saving', '768', 'bla')
