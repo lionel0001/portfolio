@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="718px" height="1082px" viewBox="0 0 718 1082" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="82.3117898%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2.-Content" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="project_-Helen" sketch:type="MSArtboardGroup" transform="translate(-57.000000, -2828.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(58.000000, 2826.000000)">
+                <g transform="translate(548.000000, 889.000000)" sketch:type="MSShapeGroup">
+                    <path d="M0.25,111.75 L168.009,111.75 L168.009,0.125 L0.25,0.125 L0.25,111.75 Z" id="frame" stroke="#929292"></path>
+                    <path d="M128.456,90.146 L151.172,90.146 L151.172,111.737 L128.456,111.737 L128.456,90.146 Z" id="Stroke-5" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M100.609,90.146 L123.327,90.146 L123.327,111.737 L100.609,111.737 L100.609,90.146 Z" id="Stroke-8" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M72.763,90.146 L95.481,90.146 L95.481,111.737 L72.763,111.737 L72.763,90.146 Z" id="Stroke-11" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M44.917,90.146 L67.634,90.146 L67.634,111.737 L44.917,111.737 L44.917,90.146 Z" id="Stroke-14" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M17.07,90.146 L39.787,90.146 L39.787,111.737 L17.07,111.737 L17.07,90.146 Z" id="Stroke-17" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M128.456,58.343 L151.172,58.343 L151.172,84.752 L128.456,84.752 L128.456,58.343 Z" id="Stroke-20" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M100.609,58.343 L123.327,58.343 L123.327,84.752 L100.609,84.752 L100.609,58.343 Z" id="Stroke-22" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M72.763,58.343 L95.481,58.343 L95.481,84.752 L72.763,84.752 L72.763,58.343 Z" id="Stroke-24" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M44.917,58.343 L67.634,58.343 L67.634,84.752 L44.917,84.752 L44.917,58.343 Z" id="Stroke-26" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M17.07,58.343 L39.787,58.343 L39.787,84.752 L17.07,84.752 L17.07,58.343 Z" id="Stroke-28" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M128.456,26.539 L151.172,26.539 L151.172,52.947 L128.456,52.947 L128.456,26.539 Z" id="Stroke-30" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M100.609,26.539 L123.327,26.539 L123.327,52.947 L100.609,52.947 L100.609,26.539 Z" id="Stroke-32" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M72.763,26.539 L95.481,26.539 L95.481,52.947 L72.763,52.947 L72.763,26.539 Z" id="Stroke-34" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M44.917,26.539 L67.634,26.539 L67.634,52.947 L44.917,52.947 L44.917,26.539 Z" id="Stroke-36" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M128.456,0.149 L151.172,0.149 L151.172,21.143 L128.456,21.143 L128.456,0.149 Z" id="Stroke-39" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M100.609,0.149 L123.327,0.149 L123.327,21.143 L100.609,21.143 L100.609,0.149 Z" id="Stroke-41" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M72.763,0.149 L95.481,0.149 L95.481,21.143 L72.763,21.143 L72.763,0.149 Z" id="Stroke-43" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M44.917,0.149 L67.634,0.149 L67.634,21.143 L44.917,21.143 L44.917,0.149 Z" id="Stroke-45" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M17.07,0.149 L39.787,0.149 L39.787,21.143 L17.07,21.143 L17.07,0.149 Z" id="Stroke-47" stroke="#929292" stroke-width="0.5"></path>
+                    <path d="M17.07,26.539 L39.787,26.539 L39.787,52.947 L17.07,52.947 L17.07,26.539 Z" id="fokus" fill="#00A3D6"></path>
+                </g>
+                <g transform="translate(549.000000, 624.000000)">
+                    <g id="ipad" transform="translate(0.000000, 23.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                        <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                        <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                    </g>
+                    <g id="Group-+-Group" transform="translate(12.000000, 36.000000)" sketch:type="MSShapeGroup">
+                        <g id="Group">
+                            <path d="M93,126.240403 L0,126.240403 L0,0.0103997984 L93,0.0103997984 L93,126.240403 Z" id="Stroke-220" stroke="#00A3D6" fill="#FFFFFF"></path>
+                            <path d="M93,13 L0,13 L0,0.0103997984 L93,0.0103997984 L93,13 Z" id="Stroke-220" stroke="#00A3D6" fill="#A7EAFA"></path>
+                            <path d="M76.5268647,8.20873589 L17.6573131,8.20873589 L17.6573131,4.09257807 L76.5268647,4.09257807 L76.5268647,8.20873589 Z" id="Fill-243" fill="#00A3D6"></path>
+                            <path d="M10.1842857,3.87078435 L13.7490483,5.928091 L10.1842857,7.98694217 L10.1842857,3.87078435 Z" id="Fill-245" fill="#00A3D6"></path>
+                            <path d="M7.08303494,7.98709662 L3.51672785,5.92824545 L7.08303494,3.87093881 L7.08303494,7.98709662 Z" id="Fill-246" fill="#00A3D6"></path>
+                        </g>
+                        <g id="Group" transform="translate(17.000000, 33.000000)" stroke="#00A3D6">
+                            <path d="M0.424244332,0 L59.5270192,0" id="Stroke-222"></path>
+                            <path d="M0.424244332,7 L59.5270192,7" id="Stroke-223"></path>
+                            <path d="M0.424244332,13 L59.5270192,13" id="Stroke-224"></path>
+                            <path d="M0.424244332,19 L59.5270192,19" id="Stroke-225"></path>
+                            <path d="M0.424244332,25 L59.5270192,25" id="Stroke-226"></path>
+                            <path d="M59.5264013,38 L0.423626522,38" id="Stroke-227"></path>
+                            <path d="M59.5264013,32 L0.423626522,32" id="Stroke-228"></path>
+                            <path d="M0.424244332,44 L59.5270192,44" id="Stroke-229"></path>
+                            <path d="M0.424244332,51 L59.5270192,51" id="Stroke-230"></path>
+                            <path d="M0.424244332,57 L59.5270192,57" id="Stroke-231"></path>
+                            <path d="M0.424244332,63 L59.5270192,63" id="Stroke-232"></path>
+                            <path d="M0.424244332,70 L59.5270192,70" id="Stroke-233"></path>
+                            <path d="M0.424244332,76 L59.5270192,76" id="Stroke-234"></path>
+                        </g>
+                    </g>
+                    <text id="Web-page" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                        <tspan x="29.8805" y="12">Web page</tspan>
+                    </text>
+                </g>
+                <g id="mitte" transform="translate(274.975336, 0.000000)">
+                    <g id="Group" transform="translate(12.000000, 0.000000)">
+                        <path d="M17,510 L74,510" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,504 L74,504" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,498 L74,498" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,492 L74,492" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,486 L74,486" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,480 L74,480" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,474 L74,474" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,468 L74,468" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,462 L74,462" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,456 L74,456" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,450 L74,450" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,444 L74,444" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,438 L74,438" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,432 L74,432" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,426 L74,426" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,420 L74,420" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,414 L74,414" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,408 L74,408" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,402 L74,402" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,396 L74,396" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,390 L74,390" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,384 L74,384" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,378 L74,378" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,372 L74,372" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,366 L74,366" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,360 L74,360" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,354 L74,354" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,348 L74,348" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,342 L74,342" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,336 L74,336" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,330 L74,330" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,324 L74,324" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,318 L74,318" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,312 L74,312" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,306 L74,306" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,300 L74,300" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,294 L74,294" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,288 L74,288" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,282 L74,282" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,276 L74,276" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,270 L74,270" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,264 L74,264" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,258 L74,258" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,252 L74,252" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,246 L74,246" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,240 L74,240" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,234 L74,234" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,228 L74,228" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,222 L74,222" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,216 L74,216" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,210 L74,210" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,204 L74,204" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,198 L74,198" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,192 L74,192" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,186 L74,186" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,180 L74,180" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,174 L74,174" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,168 L74,168" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,162 L74,162" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,156 L74,156" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,150 L74,150" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,144 L74,144" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,138 L74,138" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,132 L74,132" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,126 L74,126" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,120 L74,120" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,114 L74,114" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,108 L74,108" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,102 L74,102" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,96 L74,96" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,90 L74,90" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,84 L74,84" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,78 L74,78" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,72 L74,72" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,66 L74,66" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,60 L74,60" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,54 L74,54" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,972 L74,972" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,966 L74,966" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,960 L74,960" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,954 L74,954" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,948 L74,948" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,942 L74,942" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,936 L74,936" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,930 L74,930" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,924 L74,924" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,918 L74,918" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,912 L74,912" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,906 L74,906" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,900 L74,900" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,894 L74,894" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,888 L74,888" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,882 L74,882" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,876 L74,876" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,870 L74,870" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,864 L74,864" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,858 L74,858" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,852 L74,852" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,846 L74,846" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,840 L74,840" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,834 L74,834" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,828 L74,828" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,978 L74,978" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,984 L74,984" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,990 L74,990" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,996 L74,996" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1002 L74,1002" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1008 L74,1008" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1014 L74,1014" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1020 L74,1020" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1026 L74,1026" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1032 L74,1032" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1038 L74,1038" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1044 L74,1044" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1050 L74,1050" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1056 L74,1056" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1062 L74,1062" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1068 L74,1068" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1074 L74,1074" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,1080 L74,1080" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,822 L74,822" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,816 L74,816" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,810 L74,810" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,804 L74,804" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,798 L74,798" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,792 L74,792" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,786 L74,786" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,780 L74,780" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,774 L74,774" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,768 L74,768" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,762 L74,762" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,756 L74,756" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,750 L74,750" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,744 L74,744" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,738 L74,738" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,732 L74,732" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,726 L74,726" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,720 L74,720" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,714 L74,714" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,708 L74,708" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,702 L74,702" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,696 L74,696" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,690 L74,690" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,684 L74,684" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,678 L74,678" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,672 L74,672" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,666 L74,666" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,660 L74,660" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,654 L74,654" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,648 L74,648" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,642 L74,642" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,636 L74,636" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,630 L74,630" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,624 L74,624" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,618 L74,618" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,612 L74,612" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,606 L74,606" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,600 L74,600" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,594 L74,594" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,588 L74,588" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,582 L74,582" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,576 L74,576" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,570 L74,570" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,564 L74,564" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,558 L74,558" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,552 L74,552" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,546 L74,546" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,540 L74,540" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,534 L74,534" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,528 L74,528" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,522 L74,522" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M17,516 L74,516" id="Line" stroke="#979797" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="13" y="63" width="68" height="34"></rect>
+                        <text id="E-Book-A" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                            <tspan x="19.084" y="12">E-Book A</tspan>
+                        </text>
+                        <rect id="Rectangle-200" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="0.024663673" y="1029" width="94" height="55"></rect>
+                    </g>
+                    <g id="ipad" transform="translate(0.000000, 23.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                        <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                        <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                    </g>
+                </g>
+                <g transform="translate(0.000000, 195.000000)">
+                    <g id="ipad-+-links">
+                        <g id="ipad" transform="translate(0.000000, 20.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                            <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                            <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                        </g>
+                        <g id="links" transform="translate(25.000000, 0.000000)">
+                            <path d="M65.3536588,96.3054454 L0.113556177,96.3054454 L0.113556177,89.6664883 L21.8602571,89.5422214 L21.8602571,82.3254234 L65.3536588,82.3254234 L65.3536588,96.3054454 Z" id="Fill-63" fill="#A7EAFA" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,54 L62.8875829,54" id="Stroke-68" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,61 L62.8875829,61" id="Stroke-69" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,67 L62.8875829,67" id="Stroke-70" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,73 L62.8875829,73" id="Stroke-71" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,80 L62.8875829,80" id="Stroke-72" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,86 L19.046234,86" id="Stroke-74" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,99 L62.8875829,99" id="Stroke-76" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,105 L62.8875829,105" id="Stroke-77" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,111 L62.8875829,111" id="Stroke-78" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,118 L62.8875829,118" id="Stroke-79" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,124 L62.8875829,124" id="Stroke-80" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,130 L62.8875829,130" id="Stroke-81" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,137 L62.8875829,137" id="Stroke-82" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,143 L62.8875829,143" id="Stroke-83" stroke="#929292" stroke-width="0.5" sketch:type="MSShapeGroup"></path>
+                            <path d="M24.7483743,86 L62.8874276,86" id="Stroke-73" stroke="#00A3D6" sketch:type="MSShapeGroup"></path>
+                            <path d="M3.44918942,92 L62.8875829,92" id="Stroke-75" stroke="#00A3D6" sketch:type="MSShapeGroup"></path>
+                            <text id="E-book-B" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                                <tspan x="4.9475" y="12">E-book B</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="ipad" transform="translate(274.975336, 20.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                        <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                        <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                    </g>
+                    <g id="Stroke-7-+-Stroke-10-+-Group" transform="translate(285.000000, 32.000000)" stroke="#00A3D6" sketch:type="MSShapeGroup">
+                        <path d="M96.4,129 L0.4,129 L0.4,0 L96.4,0 L96.4,129 Z" id="Stroke-7" fill="#FFFFFF"></path>
+                        <path d="M35,23 L62.2,23" id="Stroke-10"></path>
+                        <g id="Group" transform="translate(18.000000, 37.000000)">
+                            <path d="M0.2,0 L59.4,0" id="Stroke-11"></path>
+                            <path d="M0.2,6 L59.4,6" id="Stroke-12"></path>
+                            <path d="M0.2,12 L59.4,12" id="Stroke-13"></path>
+                            <path d="M0.2,18 L59.4,18" id="Stroke-14"></path>
+                            <path d="M0.2,24 L59.4,24" id="Stroke-15"></path>
+                            <path d="M0.2,30 L59.4,30" id="Stroke-16"></path>
+                            <path d="M0.2,36 L59.4,36" id="Stroke-17"></path>
+                            <path d="M0.2,42 L59.4,42" id="Stroke-18"></path>
+                            <path d="M0.2,48 L59.4,48" id="Stroke-19"></path>
+                            <path d="M0.2,54 L59.4,54" id="Stroke-20"></path>
+                            <path d="M0.2,60 L59.4,60" id="Stroke-21"></path>
+                            <path d="M0.2,66 L59.4,66" id="Stroke-22"></path>
+                            <path d="M0,72 L59.2,72" id="Stroke-22"></path>
+                            <path d="M0,78 L59.2,78" id="Stroke-22"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(117.000000, 59.000000)">
+                        <path d="M0,40 L0,24 L169.634063,24 L177.038815,32.3739895 L169.634063,40 L0,40 Z" id="Fill-113" fill="#A7EAFA" sketch:type="MSShapeGroup"></path>
+                        <text id="Incoming-citation" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#00A3D6">
+                            <tspan x="48.3555" y="35">Incoming citation</tspan>
+                        </text>
+                        <text id="A-chapter-of-e-book-" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                            <tspan x="40.2155" y="69">A chapter of e-book A </tspan>
+                            <tspan x="45.0305" y="79">is cited in e-book B</tspan>
+                        </text>
+                        <path d="M81,14 L79,14 L79,0 L81,0 L89.008,7 L81,14 Z" id="Fill-42" fill="#00A3D6" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+                <g transform="translate(274.000000, 400.000000)">
+                    <g id="ipad-+-rechts" transform="translate(276.000000, 0.000000)">
+                        <g id="ipad" transform="translate(0.000000, 20.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                            <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                            <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                        </g>
+                        <g id="Stroke-7-+-Stroke-10-+-Group" transform="translate(10.000000, 32.000000)" stroke="#00A3D6" sketch:type="MSShapeGroup">
+                            <path d="M96.4,129 L0.4,129 L0.4,0 L96.4,0 L96.4,129 Z" id="Stroke-7" fill="#FFFFFF"></path>
+                            <path d="M35,23 L62.2,23" id="Stroke-10"></path>
+                            <g id="Group" transform="translate(18.000000, 37.000000)">
+                                <path d="M0.2,0 L59.4,0" id="Stroke-11"></path>
+                                <path d="M0.2,6 L59.4,6" id="Stroke-12"></path>
+                                <path d="M0.2,12 L59.4,12" id="Stroke-13"></path>
+                                <path d="M0.2,18 L59.4,18" id="Stroke-14"></path>
+                                <path d="M0.2,24 L59.4,24" id="Stroke-15"></path>
+                                <path d="M0.2,30 L59.4,30" id="Stroke-16"></path>
+                                <path d="M0.2,36 L59.4,36" id="Stroke-17"></path>
+                                <path d="M0.2,42 L59.4,42" id="Stroke-18"></path>
+                                <path d="M0.2,48 L59.4,48" id="Stroke-19"></path>
+                                <path d="M0.2,54 L59.4,54" id="Stroke-20"></path>
+                                <path d="M0.2,60 L59.4,60" id="Stroke-21"></path>
+                                <path d="M0.2,66 L59.4,66" id="Stroke-22"></path>
+                                <path d="M0,72 L59.2,72" id="Stroke-22"></path>
+                                <path d="M0,78 L59.2,78" id="Stroke-22"></path>
+                            </g>
+                        </g>
+                        <text id="E-book-C" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                            <tspan x="31.2595" y="12">E-book C</tspan>
+                        </text>
+                    </g>
+                    <g id="ipad" transform="translate(0.975336, 20.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                        <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                        <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                    </g>
+                    <g id="Fill-113-+-Incoming-citation" transform="translate(107.000000, 121.000000)">
+                        <path d="M0,16 L0,0 L180.634063,0 L188.038815,8.37398946 L180.634063,16 L0,16 Z" id="Fill-113" fill="#A7EAFA" sketch:type="MSShapeGroup"></path>
+                        <text id="Outcoming-citation" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#00A3D6">
+                            <tspan x="47.0075" y="11">Outcoming citation</tspan>
+                        </text>
+                        <text id="Author-cites--E-book" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                            <tspan x="61.9525" y="36">Author cites </tspan>
+                            <tspan x="68.3335" y="46">E-book C</tspan>
+                        </text>
+                    </g>
+                    <path d="M190,111 L188,111 L188,97 L190,97 L198.008,104 L190,111 Z" id="Fill-42" fill="#00A3D6" sketch:type="MSShapeGroup"></path>
+                    <g id="highlight-mitte" transform="translate(26.000000, 121.000000)" sketch:type="MSShapeGroup">
+                        <path d="M65,16 L0,16 L0,0 L65,0 L65,16 Z" id="Fill-63" fill="#A7EAFA"></path>
+                        <path d="M3,11 L62,11" id="Stroke-75" stroke="#00A3D6"></path>
+                        <path d="M3,5 L62,5" id="Stroke-75" stroke="#00A3D6"></path>
+                    </g>
+                </g>
+                <g id="Fill-113-+-Incoming-citation" transform="translate(381.000000, 691.000000)">
+                    <path d="M0,42 L0,26 L168.634063,26 L176.038815,34.3739895 L168.634063,42 L0,42 Z" id="Fill-113" fill="#A7EAFA" sketch:type="MSShapeGroup"></path>
+                    <text id="Outcoming-citation" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#00A3D6">
+                        <tspan x="47.5075" y="37">Outcoming citation</tspan>
+                    </text>
+                    <text id="Author-refers-to-a-w" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                        <tspan x="54.7305" y="63">Author refers to </tspan>
+                        <tspan x="63.9465" y="73">a web page</tspan>
+                    </text>
+                    <path d="M83,14 L81,14 L81,0 L83,0 L91.008,7 L83,14 Z" id="Fill-42" fill="#00A3D6" sketch:type="MSShapeGroup"></path>
+                </g>
+                <g id="Fill-113-+-Incoming-citation" transform="translate(381.000000, 902.000000)">
+                    <path d="M0,42 L0,26 L168.634063,26 L176.038815,34.3739895 L168.634063,42 L0,42 Z" id="Fill-113" fill="#A7EAFA" sketch:type="MSShapeGroup"></path>
+                    <text id="Outcoming-image-link" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#00A3D6">
+                        <tspan x="34.8985" y="37">Outcoming image linkage</tspan>
+                    </text>
+                    <text id="Author-takes-over-an" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="9" font-weight="normal" sketch:alignment="middle" fill="#7F7F7F">
+                        <tspan x="31.1955" y="73">Author takes over an image </tspan>
+                        <tspan x="46.005" y="83">from another media</tspan>
+                    </text>
+                    <path d="M89,5.976 L85,5.976 L85,2.023 L89,2.023 L89,5.976 Z M77,14 L91,14 L91,0 L77,0 L77,14 Z" id="Fill-39" fill="#00A3D6" sketch:type="MSShapeGroup"></path>
+                </g>
+                <g id="Fill-63-+-Stroke-73-+-Stroke-75" transform="translate(300.000000, 714.000000)" sketch:type="MSShapeGroup">
+                    <path d="M65.2401026,23.5 L0,23.5 L0,15.8575653 L0,0.5 L65.2401026,0.5 L65.2401026,23.5 Z" id="Fill-63" fill="#A7EAFA"></path>
+                    <path d="M3,5 L62.4383935,5" id="Stroke-69" stroke="#00A3D6"></path>
+                    <path d="M3,19 L62.4383935,19" id="Stroke-75" stroke="#00A3D6"></path>
+                    <path d="M3,12 L62.4383935,12" id="Stroke-75" stroke="#00A3D6"></path>
+                </g>
+                <g id="ipad" transform="translate(274.975336, 647.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                    <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                    <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                </g>
+                <g id="ipad" transform="translate(274.975336, 869.000000)" stroke="#7F7F7F" sketch:type="MSShapeGroup">
+                    <path d="M116.338636,152.394666 C116.338636,155.252804 113.999313,157.592128 111.141175,157.592128 L5.19590817,157.592128 C2.33777034,157.592128 0,155.252804 0,152.394666 L0,5.19590817 C0,2.33621701 2.33777034,0 5.19590817,0 L111.141175,0 C113.999313,0 116.338636,2.33621701 116.338636,5.19590817 L116.338636,152.394666 Z M105.071515,139.796492 L11.2671211,139.796492 L11.2671211,12.8019721 L105.071515,12.8019721 L105.071515,139.796492 Z" id="Stroke-84" fill="#FFFFFF"></path>
+                    <path d="M62.065861,148.961794 C62.065861,151.114718 60.3214649,152.859114 58.1685415,152.859114 C56.0156181,152.859114 54.271222,151.114718 54.271222,148.961794 C54.271222,146.808871 56.0156181,145.064475 58.1685415,145.064475 C60.3214649,145.064475 62.065861,146.808871 62.065861,148.961794 L62.065861,148.961794 Z" id="Stroke-85"></path>
+                </g>
+                <rect id="Rectangle-9" fill="#00A3D6" sketch:type="MSShapeGroup" x="303" y="917" width="59" height="39"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

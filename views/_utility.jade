@@ -1,0 +1,4 @@
+mixin picturefill_3 (img, mediaWidth, alt)
+   picture
+      !='<source srcset="' + img + '.png 1x, ' + img + '@2x.png 2x" media="(min-width:'+ mediaWidth +'px)">'
+      !='<img class="basicRespImage" src="' + img + '@0,5x.png" srcset="' + img + '.png 1x, ' + img + '.png 2x" alt="'+ alt +'">'

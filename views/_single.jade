@@ -15,13 +15,11 @@ html
 
       != css('/')
 
-      //- Picturefill
-      script
-         !='document.createElement( "picture" )'
 
-      script(src='/js/vendor/jquery.picturefill.min.js' async) 
 
    body
+
+      include _utility
 
       #bluestrip
 
@@ -61,13 +59,8 @@ html
                      else
                         =post.year
 
-               mixin picturefill_3 (img, mediaWidth, alt)
-                  picture
-                     !='<source srcset="' + img + '.png 1x, ' + img + '@2x.png 2x" media="(min-width:'+ mediaWidth +'px)">'
-                     !='<img class="topImage" src="' + img + '@0,5x.png" srcset="' + img + '.png 1x, ' + img + '.png 2x" alt="'+ alt +'">'
- 
-               div.topImage
-                  +picturefill_3 ('/img/'+ post.id +'/top', '768', 'yahooo my name is indra')
+               div
+                  +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
 
             #description
                left
@@ -132,5 +125,12 @@ html
 
    script(src='/js/vendor/jquery.flexslider-min.js')
    script(src='/js/vendor/jquery.slicknav.min.js') 
+
+      //- Picturefill
+   script
+      !='document.createElement( "picture" )'
+
+   script(src='/js/vendor/picturefill.min.js' async) 
+
 
    != js('/')

@@ -148,17 +148,26 @@ h4
          margin-top:5px
          padding-top:5px
          border-top: 1px solid greyDark
-
       
-.topImage
-   padding-top: 10px
-   padding-bottom:16px
+.basicRespImage
    +below(bpMedium)
       width:90%
    +below(bpSmall)
       width:100%
+      
+.descripSVG
+   col(8/12)
+   
+   +below(bpMedium)
+      col(10/12)
 
+   +below(bpSmall)
+      padding:0px
+      margin-top:0.65rem
+      stack()
 
+.vSpace
+   margin-bottom:2rem
 
 // content
 
@@ -361,12 +370,10 @@ h4
             list-style-position: inside              
             
    .rubric
-      // padding-top:20px
       col(1)
       
       .contentBox
          col(1)
-         // padding-bottom:1.3rem
          
          left
             col(7/12)
@@ -376,35 +383,6 @@ h4
                col(7/12)
             +below(bpSmall)
                stack()
-            
-         
-            // opacity: 0.2
-            // width:100px
-         .svgEmbed
-            col(8/12)
-            // margin-top:1.3rem
-            border: 1px solid greyUltraLight
-            padding:1.3rem
-            margin-bottom:1.3rem
-            // box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
-            // box-shadow: 3px 3px 3px grey;
-            
-            // opacity: 0.2
-            
-            // width:100px
-            
-            +below(bpMedium)
-               col(10/12)
-
-            +below(bpSmall)
-               border:none
-               padding:0px
-               margin-top:0.65rem
-               stack()
-
-
-
-                        
 
       right
          col(6/12)
