@@ -11,8 +11,8 @@ projectBoxHeight = 250px
 containerMarginLeftXL = 100px
 containerMarginRightXL = 100px
 
-containerMarginLeftL = 80px
-containerMarginRightL = 80px
+containerMarginLeftL = 60px
+containerMarginRightL = 60px
 containerMargins = containerMarginLeftL  + containerMarginRightL
 txtMediumCopy = 0.9375rem
 
@@ -151,13 +151,15 @@ h4
          border-top: 1px solid greyDark
       
 .basicRespImage
+   // width:100%
    +below(bpMedium)
       width:90%
    +below(bpSmall)
       width:100%
       
 .descripSVG
-   col(8/12)
+   col(7/12)
+   padding:1.3rem
    
    +below(bpMedium)
       col(10/12)
@@ -169,11 +171,15 @@ h4
 
 .vSpace
    margin-bottom:2rem
+   
 
-.borderRight
-   border-left: 0.225rem solid greyMedium
-   padding-left: 1.3rem
+.borderLeft
+   border-left: 1px solid greyMedium
+   padding-left: 1rem
    display:block
+
+.dashed
+   border-left: 1px dashed greyMedium
 
 
 // content
@@ -220,8 +226,8 @@ h4
    overflow:hidden
    
    +below(bpMedium)
-      // padding-left: containerMarginLeftL
-      // padding-right: containerMarginRightL
+      padding-left: containerMarginLeftL
+      padding-right: containerMarginRightL
       width: "calc(100% - %s)" % containerMargins 
       background-color:red
 
@@ -278,6 +284,13 @@ h4
       +below(bpSmall)
          padding-top:45px
       
+      a
+         color: blueDark
+         text-decoration:none
+             
+      a:hover
+         color: greyDark   
+
       col(1)
    
    #projectDescript
@@ -391,11 +404,11 @@ h4
       // border-top: 1px solid greyLight
       
       .contentBox
-         //col(1)
+         col(1)
          
          .single
             col(7/12)
-            padding-top:0.65rem
+            // padding-top:0.65rem
             
             +below(bpMedium)
                col(7/12)
