@@ -8,11 +8,11 @@ base()
 projectBoxWidth = 466px
 projectBoxHeight = 250px
 
-containerMarginLeftXL = 60px
-containerMarginRightXL = 40px
+containerMarginLeftXL = 100px
+containerMarginRightXL = 100px
 
-containerMarginLeftL = 60px
-containerMarginRightL = 40px
+containerMarginLeftL = 80px
+containerMarginRightL = 80px
 containerMargins = containerMarginLeftL  + containerMarginRightL
 txtMediumCopy = 0.9375rem
 
@@ -26,7 +26,7 @@ txtSmallCopy = 0.875rem
 containerWidth = 960px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
-bpSmall = 600px
+bpSmall = 768px
 
 
 bgcolor = #ECECEC
@@ -152,32 +152,11 @@ h4
       
 .topImage
    padding-top: 10px
-   padding-bottom:10px
+   padding-bottom:16px
    +below(bpMedium)
       width:90%
    +below(bpSmall)
       width:100%
-
-.svgEmbed
-   col(9/12)
-   // margin-top:1.3rem
-   border: 1px solid greyUltraLight
-   padding:1.9rem
-   // box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
-   // box-shadow: 3px 3px 3px grey;
-   
-   // opacity: 0.2
-   
-   // width:100px
-   
-   +below(bpMedium)
-      col(10/12)
-
-   +below(bpSmall)
-      border:none
-      padding:0px
-      margin-top:0.65rem
-      stack()
 
 
 
@@ -301,7 +280,7 @@ h4
                stack()
             
          right
-            col(6/12)
+            col(5/12)
             
             +below(bpMedium)
                col(5/12)
@@ -383,12 +362,15 @@ h4
             
    .rubric
       // padding-top:20px
+      col(1)
       
       .contentBox
          col(1)
+         // padding-bottom:1.3rem
          
          left
             col(7/12)
+            padding-top:0.65rem
             
             +below(bpMedium)
                col(7/12)
@@ -398,6 +380,28 @@ h4
          
             // opacity: 0.2
             // width:100px
+         .svgEmbed
+            col(8/12)
+            // margin-top:1.3rem
+            border: 1px solid greyUltraLight
+            padding:1.3rem
+            margin-bottom:1.3rem
+            // box-shadow: inset 0px 0px 5px rgba(0,0,0,0.9);
+            // box-shadow: 3px 3px 3px grey;
+            
+            // opacity: 0.2
+            
+            // width:100px
+            
+            +below(bpMedium)
+               col(10/12)
+
+            +below(bpSmall)
+               border:none
+               padding:0px
+               margin-top:0.65rem
+               stack()
+
 
 
                         
