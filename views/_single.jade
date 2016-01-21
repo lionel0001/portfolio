@@ -16,6 +16,7 @@ html
       != css('/')
 
    body
+      a.anchor(id='top')
 
       include _utility
 
@@ -23,7 +24,36 @@ html
 
       #greyContainer
 
-         include _topnav
+         //- include _topnav
+         #topBanner
+            left
+               h3 
+                  span.bold Lionel Michel 
+                  span.slogan ⇾ <i>Making sense of human and technological infrastructures</i>
+
+
+               
+            right
+               ul#menu
+                  li
+                     a(href='http://www.nichts.com') Projects
+
+                  li.projectHead.closeSlicknav
+                     a(href='#top') #{post.title}
+
+                  if post.more
+                     each val in post.more
+                        li.projectElement.closeSlicknav 
+                           a(href="#"+val[1])  #{val[0]}
+
+                  li
+                     a(href='http://www.nichts.com') About me
+
+
+
+                  //- li
+                  //-    a(href='http://www.nichts.com') About me
+
 
          #metaNav
             h3
@@ -71,7 +101,7 @@ html
                   if post.supervisionFH 
                      //- h4 Supervision
                      p= 'Supervised by ' + post.supervisionFH + ' at the ' 
-                        a(href='http://www.fh-potsdam.de') University of Appliance Potsdam, Germany
+                        a(href='http://www.fh-potsdam.de') University of Applied Sciences Potsdam, Germany
       
       #whiteContainer
 

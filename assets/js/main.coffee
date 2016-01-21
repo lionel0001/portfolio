@@ -25,7 +25,10 @@ WebFont.load({
 $('#menu').slicknav
 	label: ''
 	
+$(".closeSlicknav").click ->
+	return $("#menu").slicknav("close")
 
-	# $('#menu').slicknav({
-	# 	prependTo:'#demo1'
-	# });
+# $('#menu').slicknav({
+# 	prependTo:'#demo1'
+# });
+
