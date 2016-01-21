@@ -74,8 +74,14 @@ html
                      else
                         =post.year
 
-               div.projectImage
-                  +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+
+               if post.shiftTopImg
+                  div(style="left:"+ post.shiftTopImg[0].x + "px;").projectImage
+               else
+                  div.projectImage
+               
+               +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+
 
             #description
                left
