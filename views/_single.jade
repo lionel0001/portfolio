@@ -73,9 +73,18 @@ html
                         =post.year + " — "+ post.moreinfo
                      else
                         =post.year
-                 
-               div.projectImage.shiftshadow
-                  +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+              
+
+               if post.shiftTopImg
+                  div(style="left:"+ post.shiftTopImg[0].x + "px;").projectImage
+                     +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+
+               else
+                  div.projectImage
+                     +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+
+               
+
 
 
             #description
