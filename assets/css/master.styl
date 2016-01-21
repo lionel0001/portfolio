@@ -23,7 +23,7 @@ txtSmallCopy = 0.875rem
 // txtSmallLineHeigh = 
 
 // containerWidth = 1060px
-containerWidth = 1160px
+containerWidth = 960px
 
 bpMedium = containerMarginLeftXL + containerMarginRightXL + containerWidth
 bpSmall = 768px
@@ -115,7 +115,10 @@ h3
 
    .slogan
       font-weight:400
-      font-style:italic
+      white-space: nowrap
+      
+      +below(bpSmall)
+         white-space: normal
     
    .status
       font-weight:400
@@ -170,7 +173,7 @@ h4
       stack()
 
 .vSpace
-   margin-bottom:2rem
+   padding-bottom:0.65rem
    
 
 .borderLeft
@@ -182,7 +185,28 @@ h4
    border-left: 1px dashed greyMedium
 
 
+.vertSpace75
+   height:75px
+   display:block
+
+
 // content
+// specific css
+ 
+// home               
+.bgImg-helen
+   bg: '/img/street-cut.jpg'
+    
+.bgImg-knowledge
+   bg: '/img/street.jpg'
+ 
+.bgImg-geolinguistic
+   bg: '/img/street.jpg'
+            
+.bgImg-urbanweave
+   bg: '/img/street.jpg' 
+
+
 
 // slick menu
 .slicknav_menu
@@ -190,8 +214,10 @@ h4
     
    +below(bpSmall)
       position:fixed
+      z-index:310
       display:block
       width:100%
+      // background-color:blueLight
  
       .slicknav_btn
          float:left
@@ -252,16 +278,16 @@ h4
          padding-top:49px
       
       left
-         col(8/12)
+         span(19/24)
          
          +below(bpSmall)
-               col(12/12)
+            span(12/12)
 
       right
-         col(4/12)
+         span(5/24)
          
          +below(bpSmall)
-            col(0/12)
+            span(0/12)
       
          ul
             reset-list()
@@ -277,6 +303,14 @@ h4
           
          a:hover
             color: greyMedium
+
+   
+   #hello
+      col(1)
+      +below(bpSmall)
+         padding-top:0.65rem 
+      
+      
 
    #metaNav
       
@@ -347,6 +381,75 @@ h4
                    
                   a:hover
                      color: blueDark
+
+
+   #projects
+       
+      .project
+         col(1/2, cycle:2)
+         height: projectBoxHeight
+         margin-bottom: 20px
+          
+         +below(bpSmall)
+            stack()
+
+         a
+            text-decoration:none
+                      
+            .box
+               opacity: 1;
+               cursor: auto;
+               display: block;
+               height: projectBoxHeight
+             
+               .veil
+                  // background-color:green
+                  opacity:0
+                  width: 50px
+                  height:projectBoxHeight
+                  position:absolute
+                  z-index:0
+                  transition: all 0.25s ease-in-out;
+                  
+               h1
+                  font-size: 1.125 rem
+                  font-weight: 500
+                  margin:0
+                  padding:0
+                  color: greyDark
+                  position:relative
+                  z-index: 10
+                  padding-left:15px
+                  padding-right:15px
+                  padding-top:15px
+                  transition: all 0.25s ease-in-out;
+                   
+               h2
+                  font-size: 0.875 rem
+                  font-weight: 400
+                  font-style: italic
+                  margin:0
+                  padding:0
+                  color: greyMedium
+                  position:relative
+                  z-index: 10
+                  padding-left:15px
+                  padding-right:15px
+                  transition: all 0.25s ease-in-out;
+                   
+                  .moreInfo
+                     color:greyLight
+                  
+         a:hover
+             
+            .box
+                
+               .veil
+                  opacity:0.9
+                  background-color:greyDark
+                
+               h1, h2
+                  color: greyLight                   
 
 #whiteContainer
    background-color: white

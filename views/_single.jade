@@ -15,8 +15,6 @@ html
 
       != css('/')
 
-
-
    body
 
       include _utility
@@ -24,21 +22,8 @@ html
       #bluestrip
 
       #greyContainer
-         
-         #topBanner
 
-            left
-               h3 
-                  span.bold Lionel Michel 
-                   ⇾ 
-                  span.slogan Making sense of human and technological infrastructures
-               
-            right
-               ul#menu
-                  li
-                     a(href='http://www.nichts.com') Projects
-                  li
-                     a(href='http://www.nichts.com') About me
+         include _topnav
 
          #metaNav
             h3
