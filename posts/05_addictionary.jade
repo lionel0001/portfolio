@@ -20,8 +20,11 @@ supervisionFH: 'Timm Kekeritz and Frank Rausch'
 more: [
     ['App features','features'],
     ['Video prototype','video'],
-    ['Sketches paper prototype','sketches']
+    ['Sketches & paper prototype','sketches']
 ]
+
+
+shiftTopImg: true
 
 _content: false
 ---
@@ -41,85 +44,64 @@ block additionalContent
 
   .rubric.spacePadTop-2
     
-    a.anchor(id='concept')
-    h2 Concept in depth
+    a.anchor(id='features')
+    h2 App features
 
     .contentBox.borderLeft
       .single
-        h4 A node-based ebook entry representation
-        p Each book entry is represented in the catalog through a diagram summing up the quantities of its incoming and outcoming connections. Available in two perspectives, it visualizes alternatively the amount of users’ interactions (yellow) or the amount of authors’ citations (blue). Depending on the perspective, further related pieces of information could be also displayed.
+        h4 Thesaurus definitions and translations in one single interface
+        p.shadowTopCompensation Depending on the preset output language, the user actually gets either a translation or a thesaurus definition (if the input language is identical to the output language).
 
-    .contentBox.spacePadBot-2.borderLeft.dashed
-      img.descripSVG(src= '/img/helen/entry.svg') 
+    .contentBox.spacePadBot-2.imgShiftshadowLeft
+        +picturefill_3 ('/img/'+ post.id +'/singleinterface', '768', 'bla')
 
     .contentBox.borderLeft
       .single
-        
-        h4 Letting the users collect, annotate and connect ebooks together
-        p Helen enables the user to highlight text sections and to link those together in order to facilitate the connection of ideas and support the creation of personal knowledge (similar to the Memex). Linked highlights may be publically or privatly shared. 
+        h4 Auto-completion and automatic language detection
+        p.shadowTopCompensation By inputing a word, there is no need for the user to set the input language as this gets automatically recognized
       
-    .contentBox.spacePadBot-2.borderLeft.dashed
-      img.descripSVG(src= '/img/helen/diagramm-social.svg') 
+    .contentBox.spacePadBot-2.imgShiftshadowLeft
+        +picturefill_3 ('/img/'+ post.id +'/auto', '768', 'bla')
 
     .contentBox.borderLeft
       .single
-        h4 Harvesting citations
-        p Helen takes over authors’ footnotes and citations in order to transform them into navigable links to ebooks and web pages. Although not directly reachable, physical books are also meant to be taken in account.  
+        h4 Optimized for back-translations
+        p.shadowTopCompensation If the user is not sure about the validity of the translation (which happens a lot when a foreign lanaguage is not perfectly mastered), there is a way to quickly “back-translate” in order to check if the context still fits. 
 
-    .contentBox.spacePadBot-2.borderLeft.dashed
-        img.descripSVG(src= '/img/helen/diagramm-citation.svg') 
+    .contentBox.spacePadBot-2.imgShiftshadowLeft
+        +picturefill_3 ('/img/'+ post.id +'/back-translation', '768', 'bla')
 
 
-  .rubric.spacePadTop-2
+  .rubric
 
-    a.anchor(id='final')
-    h2 iPad app features
-
-    .contentBox
-      .single
-   
-        h4.borderLeft A facet navigation augmented with information visualizations
-        p.borderLeft In contrary to conventional library digital catalogs, the user is able to quicky and visually asset the proportions and the quantities within each facet. 
-    
-    .contentBox.spacePadBot-2
-        +picturefill_3 ('/img/'+ post.id +'/facet', '768', 'bla')
+    a.anchor(id='video')
+    h2 Video prototype
 
     .contentBox
       .single
-   
-        h4.borderLeft Incoming and outcoming links
-        p.borderLeft By sorting search results by the number of incoming and outcoming links, the user is able to discover either which ebook is the most cited or which ebook is mostly forwarding to further contents.  
+        p.borderLeft After a first click prototype done in Flash, we finilized the visualization of our concept with a video prototype. 
     
     .contentBox.spacePadBot-2
-        +picturefill_3 ('/img/'+ post.id +'/inout', '768', 'bla')
+        <iframe src="https://player.vimeo.com/video/23355092" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+  .rubric
+
+    a.anchor(id='sketches')
+    h2 Sketches & paper prototype
 
     .contentBox
       .single
-   
-        h4.borderLeft Exploring the diversity of the linked contents
-        p.borderLeft Chapter by chapter, the user is invited to explore the linked contents and the highlights from which they start . Beyond ebooks, any web-based artifact may be linked to. 
+        p.borderLeft We heavily used Hand sketches and a paper prototype in order to define the interactions taking place within the software. 
     
-    .contentBox.spacePadBot-2
-        +picturefill_3 ('/img/'+ post.id +'/link-diversity', '768', 'bla')
-
-
-    //- .contentBox
-    //-   left
-    //-     h4 Saving
-    //-     p Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
-    
-    //-   right
-    //-       +picturefill_3 ('/img/'+ post.id +'/saving', '768', 'bla')
-
-
-
     .contentBox
-      .single
-        h4.borderLeft Saving
-        p.borderLeft Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
+        +picturefill_3 ('/img/'+ post.id +'/sketches', '768', 'bla')
     
     .contentBox.spacePadBot-2
-        +picturefill_3 ('/img/'+ post.id +'/saving', '768', 'bla')
+        +picturefill_3 ('/img/'+ post.id +'/paperprototype', '768', 'bla')
+
+
+
 
 
 

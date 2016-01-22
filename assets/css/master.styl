@@ -33,9 +33,13 @@ bgcolor = #ECECEC
 greyDark = #424242
 greyMedium = #767676
 greyLight = #9E9E9E
+greyUltraLight = #ECECEC
+
+greyBorder = #BDBDBD
+
+
 blueDark = #488FC7
 blueLight = #C1DEFF
-greyUltraLight = #ECECEC
 
 *
    padding:0px
@@ -175,26 +179,39 @@ h4
 .spacePadBot-0-05
    padding-bottom:0.65rem
    
-
 .spacePadBot-2
    padding-bottom:2rem
-
+   
 .spacePadTop-2
    padding-top:2rem  
 
 
 .borderLeft
-   border-left: 1px solid greyMedium
+   border-left: 1px solid greyBorder
    padding-left: 1rem
    display:block
 
 .dashed
-   border-left: 1px dashed greyMedium
+   border-left: 1px dashed greyBorder
 
 
 .vertSpace75
    height:75px
    display:block
+
+
+// shadow compensation
+
+p.shadowTopCompensation
+   margin-bottom:0.35rem
+
+
+.imgShiftshadowLeft
+   position:relative
+   left:-15px
+   margin-top:0.35rem
+
+
 
 
 // content
