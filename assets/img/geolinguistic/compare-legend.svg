@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="504px" height="24px" viewBox="0 0 504 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>compare-legend</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Project-–-addictionary" sketch:type="MSArtboardGroup" transform="translate(-301.000000, -2837.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(39.000000, 1426.000000)">
+                <g id="Group-+-Group" transform="translate(52.000000, 913.000000)">
+                    <g id="compare-legend" transform="translate(211.000000, 499.000000)">
+                        <rect id="Rectangle-194" stroke="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="503" height="22"></rect>
+                        <g id="Stroke-220-+-Non-existing-languag">
+                            <path d="M31,22 L0,22 L0,0 L31,0 L31,22 Z" id="Stroke-220" stroke="#979797" stroke-dasharray="3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                            <text id="Non-existing-languag" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="260" fill="#767676">
+                                <tspan x="42" y="17">Non-existing language version of an article</tspan>
+                            </text>
+                        </g>
+                        <g id="Path-+-Non-existing-linkage" transform="translate(338.000000, 6.000000)">
+                            <path d="M0.483337998,8.5 L30.5,8.5" id="Path" stroke="#979797" stroke-dasharray="3" sketch:type="MSShapeGroup"></path>
+                            <text id="Non-existing-linkage" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="13" font-weight="260" fill="#767676">
+                                <tspan x="41" y="12">Non-existing linkage</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

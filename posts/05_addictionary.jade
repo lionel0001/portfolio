@@ -15,8 +15,6 @@ process: [
   'Flash & Video prototyping'
 ]
 
-supervisionFH: 'Timm Kekeritz and Frank Rausch'
-
 more: [
     ['App features','features'],
     ['Video prototype','video'],
@@ -30,6 +28,16 @@ _content: false
 ---
 
 extends ../views/_single
+
+
+block coauthorship
+
+  p.noMargin In collaboration with <a href='http://www.gunnarfriedrich.info' target='_blank'>Gunnar Friedrich</a>
+
+block supervision
+
+  p.noMargin –<br/>Supervised by Timm Kekeritz and Frank Rausch from <a href='http://www.raureif.de' target='_blank'>Raureif</a> at the<a href='http://www.fh-potsdam.de' target='blank'> University of Applied Sciences Potsdam, Germany</a>
+
 
 block description
 
@@ -82,7 +90,7 @@ block additionalContent
         p.borderLeft After a first click prototype done in Flash, we finilized the visualization of our concept with a video prototype. 
     
     .contentBox.spacePadBot-2
-        <iframe src="https://player.vimeo.com/video/23355092" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe class='vimeoContent' src="https://player.vimeo.com/video/23355092" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
   .rubric
@@ -90,14 +98,14 @@ block additionalContent
     a.anchor(id='sketches')
     h2 Sketches & paper prototype
 
-    .contentBox
+    .contentBox.borderLeft
       .single
-        p.borderLeft We heavily used Hand sketches and a paper prototype in order to define the interactions taking place within the software. 
+        p We heavily used Hand sketches and a paper prototype in order to define the interactions taking place within the software. 
     
-    .contentBox
+    .contentBox.spacePadBot-2.borderLeft.dashed
         +picturefill_3 ('/img/'+ post.id +'/sketches', '768', 'bla')
     
-    .contentBox.spacePadBot-2
+    .contentBox.spacePadBot-2.borderLeft.dashed
         +picturefill_3 ('/img/'+ post.id +'/paperprototype', '768', 'bla')
 
 

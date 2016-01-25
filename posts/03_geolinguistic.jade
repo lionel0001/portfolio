@@ -1,25 +1,124 @@
 ---
 title: 'Geolinguistic Contrasts in Wikipedia'
 subtitle: 'Making knowledge diversity visible across Wikipedia’s language versions'
-//- coauthor: 'Jeff'
-//- moreinfo: 'B.A. Thesis'
 year: '2014'
 id: 'geolinguistic'
 
-process: ''
+process: [
+	'Concept ideation',
+	'Sketching',
+  	'Wikipedia/Wikimedia API Parsing',
+  	'Front-end programming'
+]
 
-supervisionFH: 'Sebastian Meier'
+more: [
+    ['Concept in depth','concept'],
+    ['Final status','final'],
+    ['Ideation','ideation']
+]
 
+shiftTopImg: true
 
 _content: false
 ---
 
 extends ../views/_single
 
-block presentation
- 
-  img(src="/img/street.jpg",class='xyz')
 
-block details
-   :markdown
-    viele details
+block supervision
+
+  p.noMargin —<br/>Project made in the <i>Google Maps and beyond: Karten für Desktop, Mobile und Print</i> class of <a href='http://www.sebastianmeier.eu' target='blank'>Sebastian Meier</a> at the<a href='http://www.fh-potsdam.de' target='blank'> University of Applied Sciences Potsdam, Germany</a>
+
+
+block description
+
+  p #[span(class='inlineTitle') Initial situation]<br/> According to <a href='http://blogs.hbr.org/cs/2010/02/data_is_to_info_as_info_is_not.html' target='_blank'>Daniel Weinberger</a>, knowledge in the age of networks has become less certain and more diverse than it used to be in the age of books: It now evolves at the pace of the changes made on Wikipedia and at search engines algorithms.    
+
+  p #[span(class='inlineTitle') Approach]<br/>In this project, I intended to explore knowledge diversity across the different language versions of one and the same article on Wikipedia.  
+
+  p #[span(class='inlineTitle') Result]<br/>As each Wikipedia article can't be considered as an independent information object, but rather as an entity networked to further articles, I decided to visualize and compare the geographical dimension of the network associated with the different language versions. The prototype is based on the leaflet.js, data parsed through the Wikipedia and Wikidata APIs and map tiles originating from Stamen.<br/><br/><a href='http://lionelmichel.net/wikipedia/Geolinguistic_contrasts.html' target='_blank'>Try the prototype online (Google Chrome is most warmly recommended)</a>
+
+
+block additionalContent
+
+  .rubric.spacePadTop-2
+    
+    a.anchor(id='concept')
+    h2 Concept in depth
+
+    .contentBox.borderLeft
+      .single
+        h4 Each language version of a Wikipedia article is a map on its own 
+        p.shadowTopCompensation As articles are rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates. Following this insight, my goal has been to compare the networks that emerge from the different language versions of a single Wikipedia article.
+
+    //- .contentBox.spacePadBot-2.imgShiftshadowLeft
+    .contentBox.spacePadBot-2
+      .box50
+        +picturefill_3 ('/img/'+ post.id +'/article-de', '768', 'bla')
+      .box50
+        +picturefill_3 ('/img/'+ post.id +'/article-en', '768', 'bla')
+
+    .contentBox.borderLeft
+      .single
+        h4 Comparing language versions with one another through their respective geographical networks 
+        p.shadowTopCompensation The Wikipedia articles corresponding to <i>Berlin</i> in German and in English are not formed out of the same network of linked articles and accordingly offer different perspectives about the german capital.<br/>In details, the quantity of articles linked with the german version is higher than with the english version (the german one is longer) but it doesn’t automatically mean that the corresponding articles don’t exist. They just may not be linked. For example, the <i>Maxim-Gorki-Theater</i> article does exist in English but is not linked to the Berlin article.   
+
+    .contentBox
+      .box50
+        img(src= '/img/'+ post.id +'/compare-de.svg').scale-resize.spaceMargTop-2
+      .box50
+        img(src= '/img/'+ post.id +'/compare-en.svg').scale-resize.spaceMargTop-2
+    .contentBox.spacePadBot-2
+      .full
+        img(src= '/img/'+ post.id +'/compare-legend.svg').scale-resize.scale-resize-halfed.spaceMargTop-2
+
+    .contentBox.borderLeft
+      .single
+        h4 Back-linking 
+        p.shadowTopCompensation Inspired by the theory of Interpersonal ties originating from sociology, I distinguished strong links (linked article links back to the main article) from the weak links (linked article does not links back to the main article)
+
+    .contentBox
+      .full
+        img(src= '/img/'+ post.id +'/backlinking.svg').scale-resize.scale-resize-halfed.spaceMargTop-2.goLeft
+
+  .rubric.spacePadTop-2
+    
+    a.anchor(id='final')
+    h2 Final status
+
+    .contentBox
+      .single
+        p.borderLeft.shadowTopCompensation In order to compare language versions, I created a interface which presents two parallel and synchronized maps, accordingly displaying two isolated topologies.
+
+    .contentBox.spacePadBot-2.imgShiftshadowLeft
+        +picturefill_3 ('/img/'+ post.id +'/berlin-zoomed', '768', 'bla')
+
+
+    .contentBox
+      .single
+        p.borderLeft.shadowTopCompensation By zooming out, the user is able to switch from the local footprint to the global footprint of the article.
+
+    .contentBox.imgShiftshadowLeft
+        +picturefill_3 ('/img/'+ post.id +'/berlin-europe', '768', 'bla') 
+
+
+  .rubric.spacePadTop-2
+    
+    a.anchor(id='ideation')
+    h2 Ideation
+
+    .contentBox
+      .single
+        p.borderLeft Very different ideas have been explored, involving text-based as well as map-based interfaces.
+
+    .contentBox.spacePadBot-2
+        +picturefill_3 ('/img/'+ post.id +'/sketches', '768', 'bla')
+
+
+
+
+
+
+
+
+
