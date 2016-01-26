@@ -1,17 +1,4 @@
-
-
-
-	# console.log 'hello there!'
-
-	# $(window).load(function() {
-	#   $('.flexslider').flexslider({
-	#     animation: "slide"
-	#   });
-	# });
-
-	# $('.flexslider').flexslider -> 
-	# 	animation: "slide"
-
+console.log 'hello there!'
 
 
 WebFont.load({
@@ -20,15 +7,12 @@ WebFont.load({
    }
 });
 
-# $('#menu').slicknav()
-
 $('#menu').slicknav
 	label: ''
+	console.log 'bli'
 	
 $(".closeSlicknav").click ->
 	return $("#menu").slicknav("close")
 
-# $('#menu').slicknav({
-# 	prependTo:'#demo1'
-# });
-
+$(".flexslider").flexslider
+	animation: "slide"

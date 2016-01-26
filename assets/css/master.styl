@@ -102,8 +102,15 @@ h2
    
    // +below(bpSmall)
    line-height:1.9rem
-   padding-top: 0.65rem 
+   padding-top: 1.3rem 
    padding-bottom: 1.3rem
+   
+// h2:before
+//    content: "\2013"
+//    margin-right:10px
+
+   
+   
 
 
 h3
@@ -397,8 +404,15 @@ p.shadowTopCompensation
    
    #hello
       col(1)
+      
+      +below(bpMedium)
+         span(9/12)
+      
       +below(bpSmall)
+         span(12/12)
          padding-top:0.65rem 
+
+         
       
       
 
@@ -432,6 +446,21 @@ p.shadowTopCompensation
                padding: 1rem 0
             +below(bpSmall)
                padding: 0.65rem 0
+               
+         .projectVideo
+            
+            col(12/12)
+            
+            padding: 1.3rem 0
+            // background-color: red
+            
+            +below(bpMedium)
+               col(12/12)
+               padding: 1rem 0
+            +below(bpSmall)
+               column(1)
+               padding: 0.65rem 0
+            
                
          .shiftshadow
              left:-15px
@@ -644,7 +673,22 @@ p.shadowTopCompensation
             margin-left:auto
             margin-right:auto
          
+         .left-10-12
+            col(10/12)
+
+         .left-9-12
+            col(9/12)            
          
+         .left-8-12
+            col(8/12) 
+            
+            +below(bpMedium)
+               col(10/12)   
+            
+            +below(bpSmall)
+               stack()    
+            
+
 
          .box50
          .single

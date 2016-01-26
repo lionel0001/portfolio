@@ -54,7 +54,7 @@ block additionalContent
         p Each book entry is represented in the catalog through a diagram summing up the quantities of its incoming and outcoming connections. Available in two perspectives, it visualizes alternatively the amount of users’ interactions (yellow) or the amount of authors’ citations (blue). Depending on the perspective, further related pieces of information could be also displayed.
 
     .contentBox.spacePadBot-2.borderLeft.dashed
-      img.descripSVG(src= '/img/helen/entry.svg') 
+      img.descripSVG(src= '/img/'+ post.id +'/entry.svg') 
 
     .contentBox.borderLeft
       .single
@@ -63,7 +63,7 @@ block additionalContent
         p Helen enables the user to highlight text sections and to link those together in order to facilitate the connection of ideas and support the creation of personal knowledge (similar to the Memex). Linked highlights may be publically or privatly shared. 
       
     .contentBox.spacePadBot-2.borderLeft.dashed
-      img.descripSVG(src= '/img/helen/diagramm-social.svg') 
+      img.descripSVG(src= '/img/'+ post.id +'/diagramm-social.svg') 
 
     .contentBox.borderLeft
       .single
@@ -71,7 +71,7 @@ block additionalContent
         p Helen takes over authors’ footnotes and citations in order to transform them into navigable links to ebooks and web pages. Although not directly reachable, physical books are also meant to be taken in account.  
 
     .contentBox.spacePadBot-2.borderLeft.dashed
-        img.descripSVG(src= '/img/helen/diagramm-citation.svg') 
+        img.descripSVG(src= '/img/'+ post.id +'/diagramm-citation.svg') 
 
 
   .rubric.spacePadTop-2
@@ -106,17 +106,6 @@ block additionalContent
     .contentBox.spacePadBot-2
         +picturefill_3 ('/img/'+ post.id +'/link-diversity', '768', 'bla')
 
-
-    //- .contentBox
-    //-   left
-    //-     h4 Saving
-    //-     p Ebooks and their highlights as well as any linked elements can be saved in “stacks”. 
-    
-    //-   right
-    //-       +picturefill_3 ('/img/'+ post.id +'/saving', '768', 'bla')
-
-
-
     .contentBox
       .single
         h4.borderLeft Saving
@@ -136,23 +125,23 @@ block additionalContent
 
 
 
-block presentation
+//- block presentation
     
-   h1#concept Concept in details
+//-    h1#concept Concept in details
 
-   - var values = ['caramel.jpeg','cheesecake.jpeg','donuts.jpeg','lemon.jpeg'];
+//-    - var values = ['_IGP3717.jpg','_IGP3702.jpg','_IGP3697.jpg'];
    
-   .flexslider
+//-    .flexslider
    
-      ul.slides
-         each val in values.length ? values : ['No picture available']
-            li
-               img(src="/img/slider/"+val)
+//-       ul.slides
+//-          each val in values.length ? values : ['No picture available']
+//-             li
+//-                img(src="/img/slider/"+val)
 
-block details
+//- block details
 
-   h1#concept Concept in details 
+//-    h1#concept Concept in details 
 
-   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are  rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
+//-    p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are  rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
 
    

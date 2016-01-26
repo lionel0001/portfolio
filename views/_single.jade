@@ -30,9 +30,7 @@ html
                h3 
                   span.bold Lionel Michel 
                   span.slogan ⇾ <i>Making sense of human and technological infrastructures</i>
-
-
-               
+    
             right
                ul#menu
                   li
@@ -75,13 +73,19 @@ html
                         =post.year
               
 
-              if post.shiftTopImg
-                  div.projectImage.imgShiftshadowLeft
-                     +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
- 
+
+               if post.TopImgVideo
+                 div.projectVideo <iframe class='vimeoContent' src="https://player.vimeo.com/video/30081502" width="100%" height="539" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
                else
-                  div.projectImage
-                     +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+
+                  if post.shiftTopImg
+                     div.projectImage.imgShiftshadowLeft
+                        +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
+               
+                  else
+                     div.projectImage
+                        +picturefill_3 ('/img/'+ post.id +'/top', '768', 'bla')
  
                
 
@@ -109,7 +113,7 @@ html
                               a(href=val[1])  #{val[0]} 
  
                   block coauthorship
-                     
+
                   block supervision
 
 
@@ -147,7 +151,7 @@ html
 
 
 
-   script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+   script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
    script(src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js')
 
