@@ -48,11 +48,6 @@ html
                      a(href='http://www.nichts.com') About me
 
 
-
-                  //- li
-                  //-    a(href='http://www.nichts.com') About me
-
-
          #metaNav
             h3
                a(href='../') Back to the overview
@@ -122,6 +117,16 @@ html
       
       
       #stickySubNav
+         .nav
+             if post.more
+               ul
+                  li.projectHead.closeSlicknav
+                     a(href='#top') #{post.title}
+                     
+                  each val in post.more
+                     li  
+                        a(href="#"+val[1])  #{val[0]}
+
 
       #whiteContainer
 

@@ -25,7 +25,7 @@ waypoint = new Waypoint(
 		console.log('Direction: ' + direction)
 
 		if direction == "down"
-			$('#stickySubNav').css("display", "block")
+			$('#stickySubNav .nav').css("display", "block")
 		else if direction == "up"
-			$('#stickySubNav').css("display", "none")
+			$('#stickySubNav .nav').css("display", "none")
 )
