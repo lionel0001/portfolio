@@ -25,8 +25,6 @@ $(".flexslider").flexslider
 # })
 
 waypoint = new Waypoint(
-
 	element: document.getElementById('waypoint')
 	handler: (direction) -> console.log('Scrolled to waypoint!')
-
 )
