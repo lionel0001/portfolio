@@ -263,8 +263,6 @@ p.shadowTopCompensation
       left:-5px
 
 
-
-
 // content
 // specific css
  
@@ -292,7 +290,6 @@ p.shadowTopCompensation
       z-index:310
       display:block
       width:100%
-      // background-color:blueLight
          
       ul.slicknav_nav
          
@@ -325,7 +322,7 @@ p.shadowTopCompensation
    background: blueLight
    position:fixed
    top:0px
-   z-index: 300
+   z-index: 311
    +below(bpSmall)
       display:none
       
@@ -336,31 +333,42 @@ p.shadowTopCompensation
       
    .nav
       display:none
-      width: 100%
-      background: blueLight
+      background-opacity: 0.5
       position:fixed
       top:0px
-      z-index: 310
-      
+      z-index: 312
+      background: blueLight
+        
       ul
          list-style-type:none
          overflow: hidden
+         background: blueLight
          margin:0px
          padding:0px
-         // margin-top: 10px
-         padding-left: 0px //containerMarginLeftXL
-         // +below(bpMedium)
-         //    padding-left: containerMarginLeftL
          
+         padding-left: 14px
+         padding-right: 18px
+         
+         // margin-right:5px
+         margin-left:10px
+         // margin-left:containerMarginLeftXL
+         // +below(bpMedium)
+         //    margin-left: containerMarginLeftL 
+
          li
             display: inline-block
-            background-color:blueLight
-            // border-radius: 6px
-            padding:10px 10px
-            
+            color:blueDark
+            padding:8px 0px
+            margin-left:4px
+         
             a
                text-decoration:none
+               color:blueDark
             
+         li.detail:before
+            content: "\2022"
+            list-style-position: inside
+            margin-right:4px
  
 #greyContainer, #whiteContainer
    padding:0px
@@ -745,13 +753,18 @@ p.shadowTopCompensation
 
 
       
-      // shift the anchor in order to compensate the size of the mobile fixed menu
-      a.anchor
-         +below(bpSmall)
-            display: block;
-            position: relative;
-            top: -50px;
-            visibility: hidden;
+// shift the anchor in order to compensate the size of the mobile fixed menu
+a.anchor
+   display: block;
+   position: relative;
+   top: -65px;
+   visibility: hidden;
+   
+   +below(bpSmall)
+      display: block;
+      position: relative;
+      top: -50px;
+      visibility: hidden;
 
 
 

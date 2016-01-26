@@ -34,7 +34,7 @@ html
             right
                ul#menu
                   li
-                     a(href='http://www.nichts.com') Projects
+                     a(href='../') Projects
 
                   li.projectHead.closeSlicknav
                      a(href='#top') #{post.title}
@@ -49,8 +49,8 @@ html
 
 
          #metaNav
-            h3
-               a(href='../') Back to the overview
+            //- h3
+            //-    a(href='../') Back to the list
 
          #projectDescript
 
@@ -120,11 +120,12 @@ html
          .nav
              if post.more
                ul
-                  li.projectHead.closeSlicknav
-                     a(href='#top') #{post.title}
-                     
+                  li
+                     //- a(href='#top') #{post.title}
+                     a(href='#top') Overview
+
                   each val in post.more
-                     li  
+                     li.detail  
                         a(href="#"+val[1])  #{val[0]}
 
 
