@@ -25,6 +25,8 @@ $(".flexslider").flexslider
 # })
 
 waypoint = new Waypoint(
-	element: document.getElementById('waypoint')
-	handler: (direction) -> console.log('Scrolled to waypoint!')
+	element: document.getElementById('waypointSticky')
+	handler: (direction) -> 
+		console.log('Scrolled to waypoint!')
+		$('body').css("background-color", "red");
 )
