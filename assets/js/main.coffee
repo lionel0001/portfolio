@@ -1,6 +1,5 @@
 console.log 'hello there!'
 
-
 WebFont.load({
    google: {
       families: ['Fira Sans']
@@ -16,3 +15,18 @@ $(".closeSlicknav").click ->
 
 $(".flexslider").flexslider
 	animation: "slide"
+
+
+# var waypoint = new Waypoint({
+#   element: document.getElementById('waypoint'),
+#   handler: function(direction) {
+#     console.log('Scrolled to waypoint!')
+#   }
+# })
+
+waypoint = new Waypoint(
+
+	element: document.getElementById('waypoint')
+	handler: (direction) -> console.log('Scrolled to waypoint!')
+
+)
