@@ -16,17 +16,16 @@ $(".closeSlicknav").click ->
 $(".flexslider").flexslider
 	animation: "slide"
 
-
-# var waypoint = new Waypoint({
-#   element: document.getElementById('waypoint'),
-#   handler: function(direction) {
-#     console.log('Scrolled to waypoint!')
-#   }
-# })
-
 waypoint = new Waypoint(
 	element: document.getElementById('waypointSticky')
 	handler: (direction) -> 
 		console.log('Scrolled to waypoint!')
-		$('body').css("background-color", "red");
+
+		
+		console.log('Direction: ' + direction)
+
+		if direction == "down"
+			$('#stickySubNav').css("display", "block")
+		else if direction == "up"
+			$('#stickySubNav').css("display", "none")
 )
