@@ -16,9 +16,8 @@ process: [
 ]
 
 more: [
-    ['App features','features'],
-    ['Video prototype','video'],
-    ['Sketches & paper prototype','sketches']
+    ['Social visibility','social'],
+    ['Use scenario','scenario'],
 ]
 
 
@@ -41,103 +40,46 @@ block supervision
 
 block description
 
-  p #[span(class='inlineTitle') Initial situation]<br/> Within the frame of collaboration with Nokia HERE, we have been invited to think of how we could improve micro-coordination within small groups of people with the creation of new services. There was a focus on the Windows Mobile platform as it used to be the default OS of Nokia smartphones.
+  p #[span(class='inlineTitle') Initial situation]<br/> Within the frame of collaboration with Nokia HERE, we have been invited to think of how we could improve micro-coordination within small groups of people with the creation of new services. There was a focus on the Windows Mobile platform as it used to be Nokia smartphones' OS.
 
-  p #[span(class='inlineTitle') Approach]<br/>After an input phase including an introduction in the user resarch methodes used at Nokia, we first looked for opportunities and use cases by using user journeys, generating ideas and narratives. After having picked an idea, we developed a service and designed a dedicated app.  
+  p #[span(class='inlineTitle') Approach]<br/>After an input phase including an introduction in the user resarch methodes used at Nokia, we first looked for opportunities by using user journeys, generating ideas and narratives.Later, we developed a service and designed a dedicated app.  
 
-  p #[span(class='inlineTitle') Result]<br/> We created a service inspired by the crowdfounding plarform Kickstarter that would enable small groups of people to organize their common participation to events for which the purchase of an admission ticket is required (like concerts). Users are enabled to connect over the app and to pledge their participation to the social event. If a preset minimal amount of participants is reached, the social event is confirmed and the event tickets are conjointly purchased, however with an individual billing. 
+  p #[span(class='inlineTitle') Result]<br/> We created a service inspired by the crowdfounding plarform Kickstarter that would enable small groups of people to commit and buy tickets together without one single person being forced to take over the financial responsibility for the whole group. Depending on the intention of the initiator(s) and the type of event envisioned, the outing may be opened to other people following different social logics.
 
 block additionalContent
 
   .rubric.spacePadTop-2
     
-    a.anchor(id='features')
-    h2 App features
+    a.anchor(id='event')
+    h2 Social visibility
 
     .contentBox.borderLeft
       .single
-        h4 Thesaurus definitions and translations in one single interface
-        p.shadowTopCompensation Depending on the preset output language, the user actually gets either a translation or a thesaurus definition (if the input language is identical to the output language).
+        p Inviting people to an outing is sometimes a very delicate task that require a high level of social intelligence. Depending on the context, one may want to let the invitation open for further people while consciously excluding a certain category of acquaintances. For example, by launching an invitation to the next Star Trek fan convention, you may want to enable fellow fans to extand the invitation to their own friends. However you may not want to go public in the office. We tried to tackle this aspect by creating different social visibilty settings.
 
-    .contentBox.spacePadBot-2.imgShiftshadowLeft
-        +picturefill_3 ('/img/'+ post.id +'/singleinterface', '768', 'bla')
-
-    .contentBox.borderLeft
-      .single
-        h4 Auto-completion and automatic language detection
-        p.shadowTopCompensation By inputing a word, there is no need for the user to set the input language as this gets automatically recognized
-      
-    .contentBox.spacePadBot-2.imgShiftshadowLeft
-        +picturefill_3 ('/img/'+ post.id +'/auto', '768', 'bla')
-
-    .contentBox.borderLeft
-      .single
-        h4 Optimized for back-translations
-        p.shadowTopCompensation If the user is not sure about the validity of the translation (which happens a lot when a foreign lanaguage is not perfectly mastered), there is a way to quickly “back-translate” in order to check if the context still fits. 
-
-    .contentBox.spacePadBot-2.imgShiftshadowLeft
-        +picturefill_3 ('/img/'+ post.id +'/back-translation', '768', 'bla')
+    .contentBox.borderLeft.dashed
+      .full
+        img(src= '/img/'+ post.id +'/visibility.svg').scale-resize-100
 
 
-  .rubric
+  .rubric.spacePadTop-2
 
-    a.anchor(id='video')
-    h2 Video prototype
+    a.anchor(id='scenario')
+    h2 Use scenario
 
     .contentBox
       .single
-        p.borderLeft After a first click prototype done in Flash, we finilized the visualization of our concept with a video prototype. 
-    
-    .contentBox.spacePadBot-2
-        <iframe class='vimeoContent' src="https://player.vimeo.com/video/23355092" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        h4.borderLeft Setting up an event
+        p.borderLeft In very few steps, the user is able to pick a concert, set the deadline of the outing and some invite friends.
 
+    .contentBox
+      .left-3-12
+        .flexslider
 
-  .rubric
-
-    a.anchor(id='sketches')
-    h2 Sketches & paper prototype
-
-    .contentBox.borderLeft
-      .single
-        p We heavily used Hand sketches and a paper prototype in order to define the interactions taking place within the software. 
-    
-    .contentBox.spacePadBot-2.borderLeft.dashed
-        +picturefill_3 ('/img/'+ post.id +'/sketches', '768', 'bla')
-    
-    .contentBox.spacePadBot-2.borderLeft.dashed
-        +picturefill_3 ('/img/'+ post.id +'/paperprototype', '768', 'bla')
-
-
-
-
-
-
-
-
+          - var cardboard = ['setup-1.jpg','setup-2.jpg','setup-3.jpg','setup-4.jpg',];
+       
+          ul.slides
+             each val in cardboard.length ? cardboard : ['No picture available']
+                li
+                   img(src='/img/'+ post.id +'/'+ val)
   
-
-
-
-
-
-
-block presentation
-    
-   h1#concept Concept in details
-
-   - var values = ['caramel.jpeg','cheesecake.jpeg','donuts.jpeg','lemon.jpeg'];
-   
-   .flexslider
-   
-      ul.slides
-         each val in values.length ? values : ['No picture available']
-            li
-               img(src="/img/slider/"+val)
-
-block details
-
-   h1#concept Concept in details 
-
-   p <strong>Each language version of a Wikipedia article is a map on its own</strong><br/>As articles are  rarely able to cover a topic without refering to further articles, vast amounts of geographical networks (or maps) arise on wikipedia when articles are augmented with GPS coordinates.
-
-   

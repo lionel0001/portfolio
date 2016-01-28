@@ -62,7 +62,7 @@ body
 p
    font-weight:400
    line-height: 1.3rem
-   margin-bottom: 1.3rem
+   // margin-bottom: 1.3rem
  
    .inlineTitle
       font-weight:500
@@ -187,12 +187,20 @@ h4
 .spacePad-1
    padding:1rem
 
+.spacePad-2
+   padding:2rem
+   
+.spacePad-3
+   padding:3rem
 
 .spacePadBot-0-05
    padding-bottom:0.65rem
-   
+
 .spacePadBot-2
    padding-bottom:2rem
+
+.spacePadTop-1
+   padding-top:1rem  
    
 .spacePadTop-2
    padding-top:2rem  
@@ -672,8 +680,6 @@ p.shadowTopCompensation
             list-style-position: inside              
             
    .rubric
-      col(1)
-      // border-top: 1px solid greyLight
       
       .contentBox
          col(1)
@@ -731,20 +737,47 @@ p.shadowTopCompensation
             
             +below(bpSmall)
                stack()    
+         
+         .left-4-12
+            col(4/12) 
             
+            +below(bpMedium)
+               col(4/12)   
+            
+            +below(bpSmall)
+               stack()    
+
+         .left-3-12
+            col(3/12) 
+            
+            +below(bpMedium)
+               col(10/12)   
+            
+            +below(bpSmall)
+               stack()  
+
+
 
 
          .box50
          .single
          .full           
-            img.scale-resize
+            img.scale-resize-80
                width:80%
                display:block
                margin-left:auto
                margin-right:auto
                +below(bpSmall)
                   width:80%
-                  // margin-bottom:2rem
+                  
+            img.scale-resize-100
+               width:100%
+               display:block
+               margin-left:auto
+               margin-right:auto
+               +below(bpSmall)
+                  width:100%
+
             img.scale-resize-halfed
                width:50%
                +below(bpSmall)
