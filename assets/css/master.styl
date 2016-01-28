@@ -271,6 +271,31 @@ p.shadowTopCompensation
       left:-5px
 
 
+img.scale-resize-80
+   width:80%
+   display:block
+   margin-left:auto
+   margin-right:auto
+   +below(bpSmall)
+      width:80%
+      
+img.scale-resize-100
+   width:100%
+   display:block
+   margin-left:auto
+   margin-right:auto
+   +below(bpSmall)
+      width:100%
+
+img.scale-resize-halfed
+   width:50%
+   +below(bpSmall)
+      width:100%
+img.goLeft
+   margin-left:60px
+   +below(bpSmall)
+      margin-left:0px
+
 // content
 // specific css
  
@@ -681,8 +706,7 @@ p.shadowTopCompensation
             
    .rubric
       
-      .contentBox
-         col(1)
+      .contentBox, contentBoxHoriz4
          
          .single
             col(7/12)
@@ -751,41 +775,33 @@ p.shadowTopCompensation
             col(3/12) 
             
             +below(bpMedium)
-               col(10/12)   
+               col(3/12)   
             
             +below(bpSmall)
                stack()  
+    
+      .contentBox
+         col(1)  
 
 
 
+.contentBoxHoriz4
+   col(4/12)
+   width:218px
+   
+   +below(bpMedium)
+      col(4/12, uncycle:4, cycle:2)
+      width:218px
+      
+   +below(bpSmall)
+      stack()
+         
 
-         .box50
-         .single
-         .full           
-            img.scale-resize-80
-               width:80%
-               display:block
-               margin-left:auto
-               margin-right:auto
-               +below(bpSmall)
-                  width:80%
-                  
-            img.scale-resize-100
-               width:100%
-               display:block
-               margin-left:auto
-               margin-right:auto
-               +below(bpSmall)
-                  width:100%
+.contentBoxHoriz4:nth-child(2n)
+   float:left
+   
 
-            img.scale-resize-halfed
-               width:50%
-               +below(bpSmall)
-                  width:100%
-            img.goLeft
-               margin-left:60px
-               +below(bpSmall)
-                  margin-left:0px
+
 
 
       
