@@ -220,28 +220,6 @@ h4
 
 
 
-
-.borderLeft
-   border-left: 1px solid greyBorder
-   padding-left: 1rem
-   display:block
-   
-   +below(bpSmall)
-      padding-left: 0.5rem
-   
-
-.borderLeftNarrow
-   border-left: 1px solid greyBorder
-   padding-left: 0.5rem
-   display:block
-
-.dashed
-   border-left: 1px dashed greyBorder
-   +below(bpSmall)
-      border:none
-      padding-left: 0rem
-
-
 .vertSpace75
    height:75px
    display:block
@@ -706,7 +684,29 @@ img.goLeft
             
    .rubric
       
-      .contentBox, contentBoxHoriz4
+      .contentBox
+         
+
+                  
+         .borderLeft
+            border-left: 1px solid greyBorder
+            padding-left: 1rem
+            display:block
+            
+            +below(bpSmall)
+               padding-left: 0.5rem
+            
+
+         .borderLeftNarrow
+            border-left: 1px solid greyBorder
+            padding-left: 0.5rem
+            display:block
+
+         .dashed
+            border-left: 1px dashed greyBorder
+            +below(bpSmall)
+               border:none
+               padding-left: 0rem
          
          .single
             col(7/12)
@@ -746,30 +746,7 @@ img.goLeft
             col(1)
             margin-left:auto
             margin-right:auto
-         
-         .left-10-12
-            col(10/12)
 
-         .left-9-12
-            col(9/12)            
-         
-         .left-8-12
-            col(8/12) 
-            
-            +below(bpMedium)
-               col(10/12)   
-            
-            +below(bpSmall)
-               stack()    
-         
-         .left-4-12
-            col(4/12) 
-            
-            +below(bpMedium)
-               col(4/12)   
-            
-            +below(bpSmall)
-               stack()    
 
          .left-3-12
             col(3/12) 
@@ -780,28 +757,37 @@ img.goLeft
             +below(bpSmall)
                stack()  
     
-      .contentBox
-         col(1)  
+         .left-4-12
+            col(4/12) 
+            
+            +below(bpMedium)
+               col(4/12)   
+            
+            +below(bpSmall)
+               stack()   
+
+         .col-6-12
+            col(6/12) 
+            
+            +below(bpSmall)
+               stack()  
 
 
 
-.contentBoxHoriz4
-   col(4/12)
-   width:218px
-   
-   +below(bpMedium)
-      col(4/12, uncycle:4, cycle:2)
-      width:218px
-      
-   +below(bpSmall)
-      stack()
+         .left-8-12
+            col(8/12) 
+            
+            +below(bpMedium)
+               col(10/12)   
+            
+            +below(bpSmall)
+               stack()    
          
+         .left-9-12
+            col(9/12)            
 
-.contentBoxHoriz4:nth-child(2n)
-   float:left
-   
-
-
+         .left-10-12
+            col(10/12)
 
 
       
