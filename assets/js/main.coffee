@@ -15,6 +15,7 @@ $(".closeSlicknav").click ->
 
 $(".flexslider").flexslider
 	animation: "slide"
+	slideshow: false
 
 waypoint = new Waypoint(
 	element: document.getElementById('waypointSticky')
